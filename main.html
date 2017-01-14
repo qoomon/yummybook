@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Cookbook</title>
+
+    <!-- 3rd party dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<!-- templates -->
+<template id="recipe-card-template">
+    <div class="recipe-card paper-style hover-highlight">
+        <div class="recipe-content">
+            <a href="recipe.html#{{name}}">
+                <img class="recipe-image" src="data/{{pictures.[0]}}">
+            </a>
+            <p>
+            <div class="recipe-name"><a href="recipe.html#{{name}}">{{name}}</a></div>
+            <p>
+            <div class="tags">
+                {{#each tags}}
+                <span class="tag">#{{this}} </san>
+                {{/each}}
+            </div>
+            <p>
+            <div class="times">
+                {{#each times}}
+                <div class="time">{{name}}: {{time}}</div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</template>
+
+<!-- content -->
+<div class="site-title">Cookbook</div>
+<div class="search-tags"></div>
+<div class="recipes"></div>
+
+<!-- scripts -->
+<script src="data/cookbook.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

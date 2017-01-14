@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Recipe</title>
+
+    <!-- 3rd party dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="recipe.css">
+
+</head>
+<body>
+<!-- templates -->
+<template id="recipe-template">
+    <div class="recipe-content">
+        <div class="recipe-image-box">
+            {{#each pictures}}
+            <img class="recipe-image" src="data/{{this}}">
+            {{/each}}
+        </div>
+        <div class="recipe-name">{{name}}</div>
+        <p>
+        <div class="tags">
+            {{#each tags}}
+            <span class="tag">#{{this}} </span>
+            {{/each}}
+        </div>
+        <p>
+        <div class="times">
+            {{#each times}}
+            <div class="time">{{name}}: {{time}}</div>
+            {{/each}}
+        </div>
+        <p>
+        <div class="notes">{{notes}}</div>
+        <p>
+            <div class="parts">
+                {{#each parts}}
+                <div class="part">
+                    <h3 class="part-name">{{name}}</h3>
+                    <h4>Ingredients</h4>
+                    <div class="ingredients">
+                        {{#each ingredients}}
+                        <div class="ingredient">
+                            <div>{{name}}: {{amount}}</div>
+                        </div>
+                        {{/each}}
+                    </div>
+                    <p>
+                    <h4>Steps</h4>
+                    <div class="steps">
+                        {{#each steps}}
+                        <div class="step">
+                            <span class="step-index">{{inc @index}}.</span>
+                            <span class="step-description">{{this}}</span>
+                        </div>
+                        <p>
+                        {{/each}}
+                    </div>
+                    <p>
+                </div>
+                {{/each}}
+            </div>
+        <p>
+        <div class="source">Source: {{source}}</div>
+    </div>
+</template>
+
+<!-- content -->
+<div class="site-title"><a href="main.html">Recipe</a></div>
+<div class="recipe recipe-card paper-style hover-highlight"></div>
+
+<!-- scripts -->
+<script src="data/cookbook.js"></script>
+<script src="recipe.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "Cabin Sketch";
+    src: url("fonts/CabinSketch-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Cabin Sketch";
+    src: url("fonts/CabinSketch-bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Londrina Sketch";
+    src: url("fonts/LondrinaSketch-Regular.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a { /* disable link formatting */
+    color: inherit;
+    text-decoration: inherit;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #ededed;
+    background-image: url(graphics/table_top_view.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 24px;
+    text-align: center;
+}
+
+.site-title {
+    padding: 20px;
+    font-family: 'Londrina Sketch';
+    font-size: 90px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.recipe-card {
+    position: relative;
+    width: 800px;
+    height: auto;
+    min-height: 500px;
+    padding: 30px;
+    background-color: #fffdfa;
+    border-radius: 2%;
+
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.recipe-content {
+    height: 100%;
+    width: 100%;
+
+    color: #1f1f1f;
+    font-family: 'Cabin Sketch';
+    font-size: 16px;
+    text-align: left;
+
+}
+
+.recipe-name {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.recipe-image {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 16px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+    border-style: solid;
+    border-width: thick;
+    border-color: #989898;
+}
+
+.recipe-image-box {
+    position: relative ;
+    float: right;
+    top: 0;
+    right: 0;
+
+    width: 150px;
+    height: auto;
+}
+
+.step-index {
+    font-weight: bold;
+    margin: 10px;
+}
+
+.step-description {
+}
+
+.ingredients {
+    margin-left: 10px;
+}
+
+/*----------------------*/
+
+.paper-style {
+    border: 1px solid #b9b9b9;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23), inset 0 0 20px 2px rgba(0, 0, 0, 0.20);
+}
+
+.hover-highlight {
+    transition: all 1.0s cubic-bezier(.25, .8, .25, 1);
+}
+
+.hover-highlight:hover {
+    transition: all 0.5s cubic-bezier(.25, .8, .25, 1);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.35), 0 10px 10px rgba(0, 0, 0, 0.32);
+    transform: scale(1.02);
+}
