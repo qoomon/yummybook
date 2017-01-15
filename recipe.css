@@ -75,6 +75,7 @@ body {
 
 .step {
     margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .step-index {
@@ -91,6 +92,7 @@ body {
 
 .ingredient {
     margin-left: 10px;
+    margin-bottom: 5px;
 }
 
 .ingredient-bullet {
@@ -98,4 +100,12 @@ body {
     line-height: 0;
     margin-right: 10px;
     vertical-align: middle;
+}
+
+.recipe-times {
+
+}
+
+.recipe-time {
+    margin-bottom: 5px;
 }
