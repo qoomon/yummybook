@@ -9,6 +9,11 @@ body {
     text-align: center;
 }
 
+.site-title {
+    font-size: 60px;
+    line-height: 45px;
+}
+
 .recipe-card {
     position: relative;
     width: 800px;
