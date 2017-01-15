@@ -23,50 +23,46 @@
             {{/each}}
         </div>
         <div class="recipe-name">{{name}}</div>
-        <p>
+        <br>
         <div class="tags">
             {{#each tags}}
             <span class="tag">#{{this}} </span>
             {{/each}}
         </div>
-        <p>
+        <br>
         <div class="times">
             {{#each times}}
             <div class="time">{{name}}: {{time}}</div>
             {{/each}}
         </div>
-        <p>
+        <br>
         <div class="notes">{{notes}}</div>
-        <p>
-            <div class="parts">
-                {{#each parts}}
-                <div class="part">
-                    <h3 class="part-name">{{name}}</h3>
+        <div class="parts">
+            {{#each parts}}
+            <div class="part">
+                <h3 class="part-name">{{name}}</h3>
+                <div class="ingredients">
                     <h4>Ingredients</h4>
-                    <div class="ingredients">
-                        {{#each ingredients}}
-                        <div class="ingredient">
-                            <div>{{name}}: {{amount}}</div>
-                        </div>
-                        {{/each}}
+                    {{#each ingredients}}
+                    <div class="ingredient">
+                        <div><span class="ingredient-bullet">•</span> {{name}}: {{amount}}</div>
                     </div>
-                    <p>
-                    <h4>Steps</h4>
-                    <div class="steps">
-                        {{#each steps}}
-                        <div class="step">
-                            <span class="step-index">{{inc @index}}.</span>
-                            <span class="step-description">{{this}}</span>
-                        </div>
-                        <p>
-                        {{/each}}
-                    </div>
-                    <p>
+                    {{/each}}
                 </div>
-                {{/each}}
+                <div class="steps">
+                    <h4>Steps</h4>
+                    {{#each steps}}
+                    <div class="step">
+                        <span class="step-index">{{inc @index}}.</span>
+                        <span class="step-description">{{this}}</span>
+                    </div>
+                    {{/each}}
+                </div>
             </div>
-        <p>
-        <div class="source">Source: {{source}}</div>
+            {{/each}}
+        </div>
+        <br>
+        <div class="recipe-source">Source: {{source}}</div>
     </div>
 </template>
 

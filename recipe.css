@@ -35,7 +35,10 @@ body {
     font-family: 'Cabin Sketch';
     font-size: 16px;
     text-align: left;
+}
 
+.recipe-source {
+    font-size: 12px;
 }
 
 .recipe-name {
@@ -57,7 +60,7 @@ body {
 }
 
 .recipe-image-box {
-    position: relative ;
+    position: relative;
     float: right;
     top: 0;
     right: 0;
@@ -66,9 +69,17 @@ body {
     height: auto;
 }
 
+.steps {
+    margin-left: 10px;
+}
+
+.step {
+    margin-left: 10px;
+}
+
 .step-index {
     font-weight: bold;
-    margin: 10px;
+    margin-right: 10px;
 }
 
 .step-description {
@@ -76,4 +87,15 @@ body {
 
 .ingredients {
     margin-left: 10px;
+}
+
+.ingredient {
+    margin-left: 10px;
+}
+
+.ingredient-bullet {
+    font-size: 38px;
+    line-height: 0;
+    margin-right: 10px;
+    vertical-align: middle;
 }
