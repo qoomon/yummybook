@@ -11,7 +11,7 @@ body {
 
 .site-title {
     font-size: 60px;
-    line-height: 45px;
+    line-height: 50px;
 }
 
 .recipe-card {
@@ -21,7 +21,6 @@ body {
     min-height: 500px;
     padding: 30px;
     background-color: #fffdfa;
-    border-radius: 2%;
 
     display: block;
     margin: 0 auto;
@@ -51,10 +50,10 @@ body {
 
     object-fit: cover;
 
-    border-radius: 50%;
+    border-radius: 655px 805px 625px 805px/805px 625px 805px 655px;
     border-style: solid;
-    border-width: thick;
-    border-color: #6d6d6d;
+    border-width: 4px;
+    border-color: #404040;
 }
 
 .recipe-image-box {

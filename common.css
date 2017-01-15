@@ -30,11 +30,11 @@ html {
 
 .site-title {
     padding: 20px;
-    font-family: 'Londrina Sketch';
+    font-family: 'Cabin Sketch';
     font-size: 70px;
-    font-weight: 700;
+    font-weight: bold;
     text-align: center;
-    line-height: 50px;
+    line-height: 58px;
 
     height: 140px;
 
@@ -49,7 +49,8 @@ html {
 /*----------------------*/
 
 .paper-style {
-    border: 3px solid #505050;
+    border: 3px solid #444444;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23), inset 0 0 20px 2px rgba(0, 0, 0, 0.20);
 }
 
@@ -59,6 +60,6 @@ html {
 
 .hover-highlight:hover {
     transition: all 0.5s cubic-bezier(.25, .8, .25, 1);
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.35), 0 10px 10px rgba(0, 0, 0, 0.32);
-    transform: scale(1.02);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.35), 0 10px 10px rgba(0, 0, 0, 0.32), inset 0 0 20px 2px rgba(0, 0, 0, 0.20);
+    transform: scale(1.05);
 }

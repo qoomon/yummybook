@@ -13,10 +13,9 @@ body {
     width: 220px;
     height: 350px;
     margin: 10px;
-    padding: 30px;
+    padding: 20px;
     float: left;
     background-color: #fffdfa;
-    border-radius: 2%;
 }
 
 .recipe-content {
@@ -39,34 +38,37 @@ body {
     display: block;
     width: 154px;
     height: 154px;
+    margin-left: 10px;
     object-fit: cover;
 
-    border-radius: 50%;
+    border-radius: 655px 805px 625px 805px/805px 625px 805px 655px;
     border-style: solid;
-    border-width: thick;
-    border-color: #6d6d6d;
+    border-width: 4px;
+    border-color: #404040;
 }
 
 .search-tags {
     color: #1f1f1f;
     font-family: 'Cabin Sketch';
+    font-weight: bold;
     height: 70px;
 }
 
 .search-tag {
-    background-color: #ededed;
     float: left;
     height: 38px;
     line-height: 14px;
-    border-radius: 20px;
+    border-radius: 75px 65px 55px 55px/40px 65px 35px 45px;
     margin: 10px;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #a5a5a5;
+    background-color: #5f5f5f;
+    color: #e4e4e4;
 }
 
 .search-tag-selected {
     background-color: #fefefe;
+    color: #313131;
 }
 
