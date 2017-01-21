@@ -50,8 +50,6 @@ body {
 
     background: transparent url(graphics/Ribbon.png) no-repeat center;
     filter: drop-shadow(0px 16px 10px rgba(0,0,0,0.9));
-
-    margin-bottom: 24px;
 }
 
 /*----------------------*/

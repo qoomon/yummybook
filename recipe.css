@@ -4,14 +4,13 @@
 }
 
 .recipe-card {
+    display: inline-table;
     position: relative;
     width: 800px;
     height: auto;
     min-height: 500px;
     padding: 35px;
-
-    display: block;
-    margin: 0 auto 120px;
+    margin: 20px
 }
 
 .recipe-content {

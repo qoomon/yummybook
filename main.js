@@ -44,4 +44,3 @@ function filterRecipes(tag) {
     });
 
 }
-

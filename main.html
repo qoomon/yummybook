@@ -20,16 +20,13 @@
             <a href="recipe.html#{{name}}">
                 <img class="recipe-image" src="data/{{pictures.[0]}}">
             </a>
-            <p>
             <div class="recipe-name"><a href="recipe.html#{{name}}">{{name}}</a></div>
-            <p>
-            <div class="tags">
+            <div class="recipe-tags">
                 {{#each tags}}
-                <span class="tag">#{{this}} </san>
+                <span class="recipe-tag">#{{this}} </span>
                 {{/each}}
             </div>
-            <p>
-            <div class="times">
+            <div class="recipe-times">
                 {{#each times}}
                 <div class="time">{{name}}: {{time}}</div>
                 {{/each}}

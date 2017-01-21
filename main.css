@@ -1,10 +1,21 @@
+.recipes {
+    margin: 20px;
+}
+
 .recipe-card {
-    position: relative;
+    display: inline-table;
     width: 220px;
     height: 350px;
     margin: 10px;
     padding: 20px;
-    float: left;
+}
+
+.recipe-tags {
+    margin-top: 10px;
+}
+
+.recipe-times {
+    margin-top: 10px;
 }
 
 .recipe-content {
@@ -15,19 +26,17 @@
     font-family: 'Cabin Sketch', serif;
     font-size: 12px;
     text-align: center;
-
 }
 
 .recipe-name {
+    margin: 10px 0;
     font-size: 25px;
     font-weight: 700;
 }
 
 .recipe-image {
-    display: block;
     width: 154px;
     height: 154px;
-    margin-left: 10px;
     object-fit: cover;
 
     border-radius: 655px 805px 625px 805px/805px 625px 805px 655px;
@@ -38,11 +47,10 @@
     color: #1f1f1f;
     font-family: 'Cabin Sketch', serif;
     font-weight: bold;
-    height: 70px;
 }
 
 .search-tag {
-    float: left;
+    display: inline-table;
     height: 38px;
     line-height: 14px;
     border-radius: 75px 65px 55px 55px/40px 65px 35px 45px;
