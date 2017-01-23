@@ -34,7 +34,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding: 24px;
+    padding: 24px 96px;
     text-align: center;
 }
 
@@ -62,12 +62,14 @@ body {
     background-color: #f7f3ea;
 }
 
-.hover-highlight {
+.hover-zoom {
     transition: all 1.0s cubic-bezier(.25, .8, .25, 1);
 }
 
-.hover-highlight:hover {
+.hover-zoom:hover {
     transition: all 0.5s cubic-bezier(.25, .8, .25, 1);
-    filter: drop-shadow(0px 26px 15px rgba(0,0,0,0.9));
     transform: scale(1.05);
 }
+
+
+
