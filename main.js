@@ -35,7 +35,10 @@ jQuery(document).ready(function($) {
   
   var recipesGridOptions = {
     itemSelector: '.recipe-card',
-    layoutMode: 'masonry'
+    layoutMode: 'masonry',
+    masonry: { 
+      isFitWidth: true 
+    }
     // getSortData: {
     //   recipe-name: '.recipe-name',
     //   symbol: '.symbol',

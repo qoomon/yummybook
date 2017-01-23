@@ -1,11 +1,12 @@
 .recipes {
-    margin: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 .recipe-card {
     width: 220px;
     height: 350px;
-    margin: 24px;
+    margin: 16px;
     padding: 20px;
 }
 
@@ -46,6 +47,7 @@
     color: #1f1f1f;
     font-family: 'Cabin Sketch', serif;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 .search-tag {
