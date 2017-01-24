@@ -54,15 +54,7 @@ jQuery(document).ready(function($) {
   // init Isotope
   var $recipesGrid = $('.recipes').isotope(recipesGridOptions);
 
-  function recipesGridTagFilter(tags) {
-    var $items = $recipesGrid.find(recipesGridOptions.itemSelector);
-    $items.toggleClass("hover-zoom", false);
-    $recipesGrid.one( 'arrangeComplete', function() {
-      setTimeout(function(){
-        $items.toggleClass("hover-zoom", true)
-      });
-    });
-    
+  function recipesGridTagFilter(tags) {    
     $recipesGrid.isotope({ filter: function(){
       var recipeIndex = parseInt($(this).attr('recipe-index'));      
       var matchingTags = cookbook.recipes[recipeIndex].tags.filter(function (tag) {
