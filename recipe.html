@@ -24,9 +24,9 @@
         </div>
         <div class="recipe-name">{{name}}</div>
         <br>
-        <div class="tags">
+        <div class="recipe-tags">
             {{#each tags}}
-            <span class="tag">#{{this}} </span>
+            <span class="recipe-tag">#{{this}} </span>
             {{/each}}
         </div>
         <br>
@@ -36,14 +36,17 @@
             {{/each}}
         </div>
         <br>
-        <div class="notes">{{notes}}</div>
+        <div class="recipe-notes">{{notes}}</div>
         <div class="parts">
             {{#each parts}}
             <div class="part">
-                <h3 class="part-name">{{name}}</h3>
+                {{#if name}}
+                <div class="part-name">{{name}}</div>
+                <div class="part-seperator"></div>
+                {{/if}}
                 <div class="ingredients">
                     {{#if ingredients}}
-                    <h4>Ingredients</h4>
+                    <h3>Ingredients</h3>
                     {{#each ingredients}}
                     <div class="ingredient">
                         <div><span class="ingredient-bullet">•</span> {{name}}: {{amount}}</div>
@@ -53,7 +56,7 @@
                 </div>
                 <div class="steps">
                     {{#if steps}}
-                    <h4>Steps</h4>
+                    <h3>Steps</h3>
                     {{#each steps}}
                     <div class="step">
                         <span class="step-index">{{inc @index}}.</span>
