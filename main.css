@@ -5,7 +5,6 @@
 
 .recipe-card {
     width: 220px;
-    height: 350px;
     margin: 16px;
     padding: 20px;
 }
@@ -66,4 +65,3 @@
     background-color: #fefefe;
     color: #313131;
 }
-

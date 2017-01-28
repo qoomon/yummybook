@@ -42,14 +42,17 @@
             <div class="part">
                 <h3 class="part-name">{{name}}</h3>
                 <div class="ingredients">
+                    {{#if ingredients}}
                     <h4>Ingredients</h4>
                     {{#each ingredients}}
                     <div class="ingredient">
                         <div><span class="ingredient-bullet">•</span> {{name}}: {{amount}}</div>
                     </div>
                     {{/each}}
+                    {{/if}}
                 </div>
                 <div class="steps">
+                    {{#if steps}}
                     <h4>Steps</h4>
                     {{#each steps}}
                     <div class="step">
@@ -57,6 +60,7 @@
                         <span class="step-description">{{this}}</span>
                     </div>
                     {{/each}}
+                    {{/if}}
                 </div>
             </div>
             {{/each}}
