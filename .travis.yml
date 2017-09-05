@@ -1,0 +1,7 @@
+language: generic
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: scripts/deploy_to_git.sh 'dist' "https://${GH_TOKEN}@github.com/qoomon/yummybook.git" 'gh-pages'
+  on:
+    branch: master
