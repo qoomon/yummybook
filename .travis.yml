@@ -10,9 +10,8 @@ before_install:
   - chmod 600 /tmp/github_deploy_key 
   - eval $(ssh-agent -s)
   - ssh-add /tmp/github_deploy_key 
-  
 script:
-  - cp -R src/ dist
+  - cp -R app/ dist
 deploy:
   skip_cleanup: true
   provider: script

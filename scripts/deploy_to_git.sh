@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-
+set -x
 # source https://gist.github.com/qoomon/41697079eef82a56f8de51357c7ee9d9
 
 if [ $# -ne 3 ]; then
