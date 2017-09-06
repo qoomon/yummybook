@@ -13,8 +13,6 @@ before_install:
   
 script:
   - cp -R src/ dist
-before_deploy:
-  - git config --local core.sshCommand "/usr/bin/ssh -i /tmp/github_deploy_key"
 deploy:
   skip_cleanup: true
   provider: script
