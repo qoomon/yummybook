@@ -1,4 +1,6 @@
 language: generic
+script:
+  - cp -R src/ dist
 deploy:
   skip_cleanup: true
   provider: script
