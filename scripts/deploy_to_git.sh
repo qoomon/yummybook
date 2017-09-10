@@ -1,8 +1,6 @@
 #!/bin/sh
 set -e
 
-# source https://gist.github.com/qoomon/41697079eef82a56f8de51357c7ee9d9
-
 if [ $# -ne 3 ]; then
     echo "Usage: ... <SOURCE_FOLDER> <TARGET_REPO> <TARGET_BRANCH>"
     exit 1;
