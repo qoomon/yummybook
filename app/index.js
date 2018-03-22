@@ -14,10 +14,10 @@ jQuery(document).ready(function($) {
     var searchTagElement = $('<div class="search-tag paper-style hover-zoom">' + tag + '</div>');
     searchTagElement.click(function () {
         if (selectedTags.delete(tag)) {
-            $(this).removeClass("search-tag-selected ");
+            $(this).removeClass("search-tag-selected");
         } else {
             selectedTags.add(tag);
-            $(this).addClass("search-tag-selected ");
+            $(this).addClass("search-tag-selected");
         }
         recipesGridTagFilter(selectedTags);
     });

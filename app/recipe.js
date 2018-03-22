@@ -3,7 +3,7 @@ var cookbook = window.cookbook;
 var recipeName = document.location.hash.split('#')[1];
 
 var recipe = cookbook.recipes.filter(function (recipe) {
-    return recipe.name == recipeName;
+    return recipe.name == decodeURIComponent(recipeName);
 })[0];
 
 Handlebars.registerHelper('inc', function (value) {
