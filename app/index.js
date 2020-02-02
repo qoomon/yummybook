@@ -38,16 +38,6 @@ jQuery(document).ready(function($) {
     masonry: {
       isFitWidth: true
     }
-    // getSortData: {
-    //   recipe-name: '.recipe-name',
-    //   symbol: '.symbol',
-    //   number: '.number parseInt',
-    //   category: '[data-category]',
-    //   weight: function( itemElem ) {
-    //     var weight = $( itemElem ).find('.weight').text();
-    //     return parseFloat( weight.replace( /[\(\)]/g, '') );
-    //   }
-    // }
   };
 
   // init Isotope
@@ -64,12 +54,5 @@ jQuery(document).ready(function($) {
       return tags.size == matchingTags.length;
     }});
   }
-
-
-  // // bind sort button click
-  // $('#sorts').on( 'click', 'button', function() {
-  //   var sortByValue = $(this).attr('data-sort-by');
-  //   $grid.isotope({ sortBy: sortByValue });
-  // });
 
 });

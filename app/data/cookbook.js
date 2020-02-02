@@ -4,60 +4,290 @@ window.cookbook = {
 };
 
 window.cookbook.recipes.push({
-    "date": "20.08.2017",
-    "source": "Pinch of Yum",
-    "name": "Süßkartoffel-Strudel mit Champignons, Spinat & Pinienkernen",
+    "date": "10.08.2018",
+    "source": "Hello Fresh",
+    "name": "Porree-Flammkuchen mit Salat",
     "tags": [
-        "Bowl"
+        "Quiche & Flammkuchen",
+        "Lunchbox"
     ],
     "notes": [
-        ""
     ],
-
     "servings": "",
+    "times": [
+        {"name": "Zubereitungszeit", "time": "25 min"}
+    ],
+    "parts": [
+        {
+            "name": "Für den Porree-Flammkuchen",
+            "ingredients": [
+                {"name": "Porree", "amount": "1"},
+                {"name": "Kerbel", "amount": "5 g"},
+                {"name": "Schmand", "amount": "75 g"},
+                {"name": "Flammkuchen Teig", "amount": "1"},
+                {"name": "Mozzarella", "amount": "1"},
+                {"name": "Schnittlauch", "amount": "5 g g"}
 
+            ],
+            "steps": [
+              "Ofen auf 220°C Ober- / Unterhitze vorheizen",
+              "Porree gründlich waschen und nur den weißen und hellgrünen Teil in feine Ringe schneiden",
+              "Kerbel fein hacken, anschlißend gründlich mit dem Schmand verrühren",
+              "1 Tl Olivenöl udn 1 Tl Butter in einer großen beschichteten Pfanne erwärmen",
+              "Porree zugeben und 5-8 Min. zugedeckt bei schwacher Hitze weich garen",
+              "Flammkuchenteig auf einem mit Backpapier ausgelegtem Backblech ausrollen",
+              "Teig gleichmäßig mit Kerbel-Schmand bestreichen, dabei ca. 1 cm Rand frei lassen",
+              "Mit Salz und Pfeffer würzen und Porree drauf geben und mit Mozzarella bestreuen",
+              "Flammkuchen auf mittlerer Schiene des Ofens nach Packungsanleitung knusprig backen",
+              "Flammkuchen auf Tellern verteilen und mit Schnittlauch garnieren"
+            ]
+        },
+        {
+            "name": "Für den Salat",
+            "ingredients": [
+              {"name": "Salatherzen", "amount": "1"},
+              {"name": "Birne", "amount": "1"},
+              {"name": "Kürbiskerne", "amount": "20 g"}
+
+            ],
+            "steps": [
+                "Salatblätter vom Kopf lösen, waschen und abtropfen lassen",
+                "Birne waschen, Kerngehäuse entfernen und in feine Scheiben scheniden",
+                "Kürbiskerne in einer kleinen Pfanne ohne Zusatz von Fett rösten, bis sie duften, kurz abkühlen lassen",
+                "Für das Dressing: 2 El Olivenöl, 1 El Essig, 1 Tl Senf und 1/2 Tl Honig mit etwas Salz und Pfeffer in einer kleinen Schüssel verrühren",
+                "Salat, Birne und Kürbiskerne in eine große Schüssel geben und das Dressing vorsichtig unterheben"
+            ]
+        }
+    ],
+    "pictures": [
+        "pictures/Porre-Kerbel-Schmand-Flammkuchen-1.jpg",
+        "pictures/Porre-Kerbel-Schmand-Flammkuchen-2.jpg",
+        "pictures/Porre-Kerbel-Schmand-Flammkuchen-3.jpg"
+    ]
+});
+
+window.cookbook.recipes.push({
+    "date": "10.08.2018",
+    "source": "HelloFresh",
+    "name": "Tomaten-Paprika-Suppe",
+    "tags": [
+        "Soup & One Pot"
+
+    ],
+    "notes": [
+    ],
+    "servings": "2",
     "times": [
         {"name": "Zubereitungszeit", "time": "30 min"}
     ],
     "parts": [
         {
-            "name": "Für die Limetten-Sauce",
+            "name": "",
             "ingredients": [
-                {"name": "Knoblauch", "amount": "3 Zehen"},
-                {"name": "Reisessig", "amount": "2 Tl"},
-                {"name": "Agavendicksaft oder Brauner Zucker", "amount": "1/4 Cup"},
-                {"name": "Fischsauce", "amount": "1/4 Cup"},
-                {"name": "Limettensaft", "amount": "1/3 Cup"},
-                {"name": "Pflanzenöl", "amount": "1/3 Cup"}
-
+                {"name": "Ciabatta", "amount": "1"},
+                {"name": "Paprika (gelb)", "amount": "1"},
+                {"name": "Kirschtomaten (Dose)", "amount": "1"},
+                {"name": "Tabasco Sauce", "amount": "3 ml"},
+                {"name": "Knoblauch (solo)", "amount": "1/8"},
+                {"name": "Mozzarella", "amount": "1"},
+                {"name": "Crème fraiche", "amount": "75 g"},
+                {"name": "Basilikum", "amount": "5 g"},
+                {"name": "Parmesan (Flakes)", "amount": "10 g"}
             ],
             "steps": [
-                "Alle Zutaten für die Sauce im Mixer verrühren"
+                "Ciabatta nach Packungsangabe im Ofen zubereiten und kurz abkühlen lassen",
+                "300 ml Gemüsebrühe zubereiten",
+                "Paprika waschen und in grobe Würfel schneiden",
+                "1 El Olivenöl in einem großen Topf erhitzen",
+                "Paprika zugeben und 3-5 Min. glasig anbraten",
+                "Mit der vorbereiteten Brühe und Kirschtomaten ablöschen",
+                "Je nach gewünschter Schärfe Tabasco Sauce zugeben",
+                "Mit Salz, Pfeffer und 1 Prise Zucker abschmecken und 10-15 Min bei schwacher Hitze einköcheln lassen",
+                "In der Zwischenzeit: Ciabatta in Scheiben schneiden, mit ein wenig Olivenöl einpinseln und mit Salz und Pfeffer würzen",
+                "Knoblauch abiehen und halbieren und Ciabattta mit Knoblauch einrieben",
+                "Mozzarella zerkleinern und Ciabatta mit Mozzarella belege",
+                "Ofen auf 200°C Grillfunktion umstellen, Ciabatta auf dem höchsten Einschub ca. 3 Min im Ofen backen, bis der Käse bräunlich und zerlaufen ist",
+                "Suppe von der Herdplatte ziehen und fein pürieren, nach Geschmack mit Salz und Pfeffer würzen",
+                "Crème fraiche in die Suppe einrühen und anschließend bei schwacher Hitze noch einmal auf dem Herd erwärmen, aber nicht mehr zum Kochen bringen",
+                "Basilikum waschen, trocken schütteln und Blätter abzupfen und klein schneiden",
+                "Tomaten-Paprika-Suppe in Schüsseln verteilen, mit Parmesan und Basilikum bestreuen und zusammen mit dem überbackenen Ciabatta servieren"
+
             ]
         },
 
-        {
-            "name": "Für die Bowl",
-            "ingredients": [
-                {"name": "Reisnudeln", "amount": ""},
-                {"name": "Koriander, Basilikum, Minze", "amount": ""},
-                {"name": "Erdnüsse (gehackt)", "amount": ""},
-                {"name": "Chili (fein gehackt)", "amount": ""},
-                {"name": "Avocado", "amount": ""},
-                {"name": "Gemüse: Karotten, Paprika, Gurke", "amount": ""},
-                {"name": "Tofu oder Hähnchen", "amount": ""}
+    ],
+    "pictures": [
+        "pictures/Tomaten-Paprika-Suppe-1.jpg",
+        "pictures/Tomaten-Paprika-Suppe-2.jpg",
+        "pictures/Tomaten-Paprika-Suppe-3.jpg",
+    ]
+});
 
+window.cookbook.recipes.push({
+    "date": "05.08.2018",
+    "source": "HelloFresh",
+    "name": "Süßkartoffel-Karotten Suppe",
+    "tags": [
+        "Soup & One Pot"
+
+    ],
+    "notes": [
+    ],
+    "servings": "2",
+    "times": [
+        {"name": "Zubereitungszeit", "time": "35 min"}
+    ],
+    "parts": [
+        {
+            "name": "",
+            "ingredients": [
+                {"name": "Steinofenbaguette", "amount": "1"},
+                {"name": "Süßkartoffeln", "amount": "2"},
+                {"name": "Karotte", "amount": "1"},
+                {"name": "Zwiebel", "amount": "1"},
+                {"name": "Chili", "amount": "1"},
+                {"name": "Gewürzmischung (Salz, Pfeffer, Chili, Galgant, Ingwer)", "amount": "6 g"},
+                {"name": "Knoblauch (solo)", "amount": "1/8"},
+                {"name": "Schnittlauch", "amount": "5"},
             ],
             "steps": [
-                "Alle Zutaten in einer Bowl anrichten"
+                "Steinofenbaguette nach Packungsangabe im Ofen zubereiten",
+                "Süßkartoffeln und Karotten waschen, schälen und in grobe Würfel schneiden",
+                "Zwiebel abziehen und grob hacken",
+                "Chili entkernen und fein hacken",
+                "500 ml Gemüsebrühe zubereiten",
+                "1 Tl Olivenöl und 1 Tl Margarine in einem großen Topf erhitzen",
+                "Zwiebeln zugeben und bei schwacher Hitze 8-10 Min. glasig düsten",
+                "Süßkartoffeln und Karotten zugeben und ca. 6-10- Min. anbraten",
+                "Gewürze und je nach gewünschter Schärfe Chili zugeben und ca. 3 weitere Min. garen",
+                "Mit der vorbereiteten Brühe und 200 ml Wasser ablöschen",
+                "Ca. 10-20 Min köcheln lassen bis das Gemüse weich ist",
+                "In der Zwischenzeit: Schnittlauch in feine Röllchen schneiden",
+                "Knoblauch in eine kleine Schüssel presse, die Hälfte des Schnittlauchs und die Margarine mit 1 Tl Senf und etwas Salz und Pfeffer mit zugeben und gründlich vermischen",
+                "Steinofenbaguette schräg in Scheiben schneiden und mit der Knobi-Schnittlauchbutter bestreichen",
+                "Ofen auf 200°C Grillfunktion umstellen",
+                "Brot auf einem Backblech verteilen und auf dem höchsten Einschub ca. 2 Min. knusprig backen",
+                "Suppe von der Herdplatte ziehen und fein pürieren, nach Geschmack mit Salz und Pfeffer würzen"
             ]
-        }
+        },
 
     ],
     "pictures": [
-        "pictures/Spring-Roll-Bowls-1.jpg",
-        "pictures/Spring-Roll-Bowls-2.jpg",
-        "pictures/Spring-Roll-Bowls-3.jpg"
+        "pictures/Süßkartoffel-Karotten-Suppe-1.jpg",
+        "pictures/Süßkartoffel-Karotten-Suppe-2.jpg",
+        "pictures/Süßkartoffel-Karotten-Suppe-3.jpg"
+    ]
+});
+
+window.cookbook.recipes.push({
+    "date": "20.08.2017",
+    "source": "Eat this",
+    "name": "Süßkartoffel-Strudel mit Champignons, Spinat & Pinienkernen",
+    "tags": [
+        "Strudel"
+    ],
+    "notes": [
+    ],
+    "servings": "",
+    "times": [
+        {"name": "Zubereitungszeit", "time": "80 min"}
+    ],
+    "parts": [
+        {
+            "name": "",
+            "ingredients": [
+                {"name": "Süßkartoffel", "amount": "2 (600 g)"},
+                {"name": "Salz", "amount": "3 Tl"},
+                {"name": "Schwarzer Pfeffer (grob gemahlen)", "amount": "1 1/2 Tl"},
+                {"name": "Muskat", "amount": "3/4 Tl"},
+                {"name": "Champignons", "amount": "400 g"},
+                {"name": "Olivenöl", "amount": "5 El"},
+                {"name": "Thymian", "amount": "4 Zweige"},
+                {"name": "Petersilie", "amount": "1 kleiner Bund"},
+                {"name": "Pinienkerne", "amount": "2 El"},
+                {"name": "Spinat", "amount": "250 g"},
+                {"name": "Quark (vegan)", "amount": "80 g"},
+                {"name": "Sojamilch", "amount": "60 ml"},
+                {"name": "Filoteig", "amount": "450 g"},
+                {"name": "Schwarzkümmel", "amount": "2 Tl"}
+            ],
+            "steps": [
+              "Süßkartoffeln schälen, in Stücke schneiden und in reichlich Salzwasser 10 Minuten garen",
+              "Süßkartoffeln im noch heißen Zustand fein stampfen oder durch eine Kartoffelpresse drücken",
+              "Süßkartoffeln mit 1 1/2 TL Salz, 1 TL Pfeffer und Muskat würzen und beiseite stellen",
+              "Champignons in Scheiben schneiden, 2 EL Öl in eine heiße Pfanne geben und die Pilze bei geringer bis mittlerer Hitze 15 Minuten braten",
+              "Champignons nach 5 Minuten mit 1/2 TL Salz, dem restlichen Pfeffer und Thymian würzen",
+              "Petersilie fein hacken, Pfanne vom Herd nehmen, Petersilie unterrühren und auskühlen lassen",
+              "Pinienkerne in eine heiße Pfanne ohne Öl geben und unter häufigem Rühren bei hoher Hitze 4 Minuten rösten. Aus der Pfanne nehmen und beiseite stellen.",
+              "1 EL Olivenöl in eine heiße Pfanne geben, Spinat waschen und tropfnass in die Pfanne geben. Bei mittlerer Hitze 6 Minuten schmoren lassen. Mit dem übrigen Salz würzen",
+              "Spinat mit dem übrigen Salz würzen",
+              "Quark und Sojamilch mit dem übrigen Olivenöl glatt rühren",
+              "Filoteigblätter einzeln auf die Arbeitsfläche legen, großzügig mit Quarkmasse bestreichen und auf die Hälfte umschlagen",
+              "Am unteren Rand mit Süßkartoffelmasse, Champignons und Spinat belegen, seitlich einschlagen und vorsichtig aufrollen",
+              "Die Rollen nacheinander spiralförmig in eine gefettete Springform legen, anschließend ordentlich mit Quarkfüllung bestreichen und mit Pinienkernen und Schwarzkümmel toppen",
+              "Backofen auf 170 °C Ober-/Unterhitze vorheizen und den Strudel 20-25 Minuten backen",
+              "Der Strudel kann wunderbar vorgebacken und im Ofen aufgewärmt werden"
+            ]
+        }
+    ],
+    "pictures": [
+        "pictures/suesskartoffel-strudel-1.jpg",
+        "pictures/suesskartoffel-strudel-2.jpg",
+        "pictures/suesskartoffel-strudel-3.jpg"
+    ]
+});
+
+window.cookbook.recipes.push({
+    "date": "20.08.2017",
+    "source": "HelloFresh",
+    "name": "Gnocchi in cremiger Zitronen-Mascarpone-Sauce",
+    "tags": [
+        "Pasta & Gnocchi"
+
+    ],
+    "notes": [
+    ],
+    "servings": "2",
+    "times": [
+        {"name": "Zubereitungszeit", "time": "25 min"}
+    ],
+    "parts": [
+        {
+            "name": "",
+            "ingredients": [
+                {"name": "Gnocchi", "amount": "500 g"},
+                {"name": "Mascarpone", "amount": "3 El"},
+                {"name": "Basilikum", "amount": "10 g"},
+                {"name": "Zitrone", "amount": "1/2"},
+                {"name": "Knoblauch (solo)", "amount": "1/8"},
+                {"name": "Kirschtomaten", "amount": "200"},
+                {"name": "Parmesan", "amount": "20 g"}
+            ],
+            "steps": [
+                "Einen großen Topf mit reichlich Salzwasser zum Kochen bringen",
+                "Parmesan fein reiben",
+                "Zitrone fein abreiben und anschließend entsaften",
+                "Kirschtomaten waschen und halbieren",
+                "Knoblauch abziehen und fein hacken",
+                "Basilikumblätter abzupfen",
+                "Gnocchi in kochendem Wasser garen bis sie oben schwimmen",
+                "Anschließend abgießen, dabei 150 ml Gnocchi-Wasser auffangen",
+                "1 Tl Olivenöl in einer großen Pfanne erwärmen",
+                "Kirschtomaten darin ca. 4-6 Min. schmoren",
+                "knoblauch zugeben und ca. 1 Min. mitbraten",
+                "Mit Gnocchi-Wasser ablöschen und kurz einkochen lassen",
+                "3 EL Mascarpone, etwas Zitronenabrieb, 1 Tl Zitronensaft und Großteil des Parmesans einrühren, sodass eine gleichmäßige und cremige Sauce entsteht",
+                "Mit Salz und Pfeffer abschmecken",
+                "Gnocchi zugeben und kurz in der Soße durchwärmen",
+                "Anschließend auf tiefen Tellern verteilen und nach Belieben mit restlichem Parmesan und Basilikum bestreut servieren"
+            ]
+        },
+
+    ],
+    "pictures": [
+        "pictures/gnocci-zitronen-mascarpone-1.jpg",
+        "pictures/gnocci-zitronen-mascarpone-2.jpg",
+        "pictures/gnocci-zitronen-mascarpone-3.jpg"
     ]
 });
 
@@ -67,14 +297,10 @@ window.cookbook.recipes.push({
     "name": "Spring Roll Bowl mit Limettensauce",
     "tags": [
         "Bowl"
-
     ],
     "notes": [
-        ""
     ],
-
     "servings": "",
-
     "times": [
         {"name": "Zubereitungszeit", "time": "30 min"}
     ],
@@ -88,13 +314,11 @@ window.cookbook.recipes.push({
                 {"name": "Fischsauce", "amount": "1/4 Cup"},
                 {"name": "Limettensaft", "amount": "1/3 Cup"},
                 {"name": "Pflanzenöl", "amount": "1/3 Cup"}
-
             ],
             "steps": [
                 "Alle Zutaten für die Sauce im Mixer verrühren"
             ]
         },
-
         {
             "name": "Für die Bowl",
             "ingredients": [
@@ -105,13 +329,11 @@ window.cookbook.recipes.push({
                 {"name": "Avocado", "amount": ""},
                 {"name": "Gemüse: Karotten, Paprika, Gurke", "amount": ""},
                 {"name": "Tofu oder Hähnchen", "amount": ""}
-
             ],
             "steps": [
                 "Alle Zutaten in einer Bowl anrichten"
             ]
         }
-
     ],
     "pictures": [
         "pictures/Spring-Roll-Bowls-1.jpg",
@@ -125,15 +347,12 @@ window.cookbook.recipes.push({
     "source": "Family & Friends",
     "name": "Gemüsesuppe",
     "tags": [
-        "Suppe"
+        "Soup & One Pot"
 
     ],
     "notes": [
-        ""
     ],
-
     "servings": "",
-
     "times": [
         {"name": "Zubereitungszeit", "time": "30 min"}
     ],
@@ -148,7 +367,6 @@ window.cookbook.recipes.push({
                 {"name": "Bohnen", "amount": ""},
                 {"name": "Würstchen (Eberswalder)", "amount": ""},
                 {"name": "Pfeffer und Salz", "amount": ""}
-
             ],
             "steps": [
                 "Gemüse kleinschneiden und mit Brühe aufkochen",
@@ -156,7 +374,6 @@ window.cookbook.recipes.push({
                 "Mit Salz und Pfeffer abschmecken"
             ]
         },
-
     ],
     "pictures": [
         "pictures/Gemüsesuppe-1.jpg",
@@ -170,15 +387,11 @@ window.cookbook.recipes.push({
     "source": "Family & Friends",
     "name": "Schmorkohl mit Hackfleisch",
     "tags": [
-        "Bowl"
-
+        "Soup & One Pot"
     ],
     "notes": [
-        ""
     ],
-
     "servings": "",
-
     "times": [
         {"name": "Zubereitungszeit", "time": "60 min"}
     ],
@@ -190,7 +403,6 @@ window.cookbook.recipes.push({
                 {"name": "Pfeffer und Salz", "amount": ""},
                 {"name": "Paprikapulver", "amount": ""},
                 {"name": "Weißkohl", "amount": "1/2"}
-
             ],
             "steps": [
                 "Hackfleisch in einem großen Topf in heißem Öl anbraten",
@@ -202,7 +414,6 @@ window.cookbook.recipes.push({
                 "Mit Salz und Pfeffer abschmecken"
             ]
         },
-
     ],
     "pictures": [
         "pictures/Schmorkohl-mit-Hackfleisch-1.jpg",
@@ -215,15 +426,11 @@ window.cookbook.recipes.push({
     "source": "Family & Friends",
     "name": "Frikassee vom Huhn",
     "tags": [
-        "Suppe"
-
+        "Soup & One Pot"
     ],
     "notes": [
-        ""
     ],
-
     "servings": "",
-
     "times": [
         {"name": "Zubereitungszeit", "time": "60 min"}
     ],
@@ -244,7 +451,6 @@ window.cookbook.recipes.push({
                 {"name": "Kapern", "amount": ""},
                 {"name": "Zitrone", "amount": "1"},
                 {"name": "Champignons", "amount": "1 Dose"}
-
             ],
             "steps": [
                 "Huhn mit Sellerie, Porree und Karotten in Salzwasser kochen, ca. 1,5 h",
@@ -256,7 +462,6 @@ window.cookbook.recipes.push({
                 "Anschließend die Klöße, 1 Dose Champignons und das Hühnerfleisch hinzufügen und abschmecken"
             ]
         },
-
     ],
     "pictures": [
         "pictures/Frikassee-vom-Huhn-1.jpg",
@@ -270,15 +475,11 @@ window.cookbook.recipes.push({
     "source": "unbekannt",
     "name": "Doppeldecker-Kekse",
     "tags": [
-        "Cakes & Muffins"
-
+        "Sweets"
     ],
     "notes": [
-        ""
     ],
-
     "servings": "",
-
     "times": [
         {"name": "Zubereitungszeit", "time": "60 min"}
     ],
@@ -295,7 +496,6 @@ window.cookbook.recipes.push({
                 {"name": "Butter", "amount": "200 g"},
                 {"name": "Ei", "amount": "1"},
                 {"name": "Fruchtmarmelade", "amount": "200 g"}
-
             ],
             "steps": [
                 "Butter und Ei verrühren",
@@ -309,7 +509,6 @@ window.cookbook.recipes.push({
                 "Je 1 Plätzchen aufsetzen und mit Puderzucker bestäuben"
             ]
         },
-
     ],
     "pictures": [
         "pictures/Doppeldecker-Kekse-3.jpg",
@@ -323,20 +522,15 @@ window.cookbook.recipes.push({
     "source": "Family & Friends",
     "name": "Gedeckter Apfelkuchen",
     "tags": [
-        "Cakes & Muffins"
-
+        "Sweets"
     ],
     "notes": [
-        ""
     ],
-
     "servings": "1 Blech",
-
     "times": [
         {"name": "Zubereitsungszeit", "time": "60 min"},
         {"name": "Backzeit", "time": "40 min"}
     ],
-
    "parts": [
         {
             "name": "Für den Boden",
@@ -346,7 +540,6 @@ window.cookbook.recipes.push({
                 {"name": "Zucker", "amount": "175 g"},
                 {"name": "Vanillezucker", "amount": "1 Päckchen"},
                 {"name": "Eier", "amount": "3"}
-
             ],
             "steps": [
                 "Den Zucker mit der Butter verrühren",
@@ -355,7 +548,6 @@ window.cookbook.recipes.push({
                 "in Folie gewickeln 30 Minuten im Kühlschrank ruhen lassen"
             ]
         },
-
         {
             "name": "Für die Füllung",
             "ingredients": [
@@ -364,7 +556,6 @@ window.cookbook.recipes.push({
                 {"name": "Zitrone", "amount": "1 (Saft und Schale)"},
                 {"name": "Zucker", "amount": "125 g"},
                 {"name": "Speisestärke", "amount": "50 g"}
-
             ],
             "steps": [
                 "2 kg Äpfel schälen und rasplen",
@@ -372,17 +563,14 @@ window.cookbook.recipes.push({
                 "Apfelraspel hinzugeben, mindestens 1 min garen lassen",
                 "in einem kleinen Gefäß Speisestärke mit etwas Apfelsaft verrücken",
                 "Angedickte Speisestärke zu den Apfelraspeln geben"
-
             ]
         },
-
        {
             "name": "Schichtung",
             "ingredients": [
                 {"name": "Mandeln (gerieben)", "amount": "100 g"},
                 {"name": "Puderzucker", "amount": "200 g"},
                 {"name": "Apfelsaft", "amount": "4-6 El"}
-
             ],
             "steps": [
                 "Teig halbieren und je zwischen 2 Lagen Backpapier ausrollen",
@@ -395,7 +583,6 @@ window.cookbook.recipes.push({
             ]
         }
     ],
-
     "pictures": [
         "pictures/Gedeckter-Apfelkuchen-1.jpg",
         "pictures/Gedeckter-Apfelkuchen-2.jpg",
@@ -408,27 +595,22 @@ window.cookbook.recipes.push({
     "source": "unbekannt",
     "name": "White Chocolate Cheesecake",
     "tags": [
-        "Cakes & Muffins"
-
+        "Sweets"
     ],
     "notes": [
         "muss am Vortag vorbereitet werden"
     ],
-
     "servings": "20 cm Kuchenring",
-
     "times": [
         {"name": "Zubereitsungszeit", "time": "60 min"},
         {"name": "Kühlzeit", "time": "24 h"}
     ],
-
    "parts": [
         {
             "name": "Für den Boden",
             "ingredients": [
                 {"name": "Buisquit-Kekse", "amount": "175 g"},
                 {"name": "Butter (geschmolzen)", "amount": "65 g"}
-
             ],
             "steps": [
                 "Springform mit Backpapier auslegen",
@@ -437,7 +619,6 @@ window.cookbook.recipes.push({
                 "Butter-Keks-Mischung in die Springform drücekn"
             ]
         },
-
         {
             "name": "Cream Cheese Frosting",
             "ingredients": [
@@ -450,7 +631,6 @@ window.cookbook.recipes.push({
                 {"name": "Zucker", "amount": "120 g"},
                 {"name": "Himbeeren (frisch)", "amount": "125 g"},
                 {"name": "Blaubeeren (frisch)", "amount": "75 g"}
-
             ],
             "steps": [
                 "Blattgelantine in kaltem Wasser nach Packungsanweisung einweichen",
@@ -463,11 +643,9 @@ window.cookbook.recipes.push({
                 "Die Hälfte der Creme auf dem Kuchenboden geben und die Früchte darauf verteilen",
                 "Anschließend mit der restlichen Creme bedecken",
                 "24 Stunden im Kühlschrank fest werden lassen"
-
             ]
         }
     ],
-
     "pictures": [
         "pictures/White-Chocolate-Cheesecake-1.jpg",
         "pictures/White-Chocolate-Cheesecake-2.jpg",
@@ -481,14 +659,10 @@ window.cookbook.recipes.push({
     "name": "Süßkartoffel-Quiche",
     "tags": [
         "Quiche & Flammkuchen"
-
     ],
     "notes": [
-        ""
     ],
-
     "servings": "1 Quiche",
-
     "times": [
         {"name": "Zubereitungszeit", "time": "15 min"}
     ],
@@ -506,7 +680,6 @@ window.cookbook.recipes.push({
                 {"name": "Eier", "amount": "4"},
                 {"name": "Eiweiß", "amount": "2"}
             ],
-
             "steps": [
                 "Backofen auf 180 °C vorheizen",
                 "Süßkartoffeln schälen und in Scheiben schneiden",
@@ -518,10 +691,8 @@ window.cookbook.recipes.push({
                 "Milch, Salz, Peffer, Paprikapulver, Eier und Eiweiß verrühren",
                 "Spinat in der Quicheform verteilen und die Eiermischung darüber geben",
                 "Quiche für 35 min backen"
-
             ]
         },
-
     ],
     "pictures": [
         "pictures/spinat-süßkartoffel-quiche-1.jpg",
@@ -535,16 +706,12 @@ window.cookbook.recipes.push({
     "source": "True Fruits",
     "name": "White Smoothie - Erdbeere",
     "tags": [
-        "Drinks",
-        "Vegan"
+        "Drinks"
 
     ],
     "notes": [
-        ""
     ],
-
     "servings": "500 ml",
-
     "times": [
         {"name": "Zubereitungszeit", "time": "10 min"}
     ],
@@ -561,10 +728,8 @@ window.cookbook.recipes.push({
             ],
             "steps": [
                 "Alle Zutaten zusammen mixen"
-
             ]
         },
-
     ],
     "pictures": [
         "pictures/white-smoothie-erdbeere-1.jpg",
@@ -579,15 +744,11 @@ window.cookbook.recipes.push({
     "name": "Bananenbrot (vegan)",
     "tags": [
         "Brot",
-        "Cakes & Muffins"
-
+        "Sweets"
     ],
     "notes": [
-        ""
     ],
-
     "servings": "1 Brot",
-
     "times": [
         {"name": "Backzeit", "time": "75 min"},
         {"name": "Zubereitungszeit", "time": "10 min"}
@@ -611,7 +772,6 @@ window.cookbook.recipes.push({
                 {"name": "Mandelmehl", "amount": "1 1/4 Cup"},
                 {"name": "Mehl", "amount": "1 1/4 Cup"},
                 {"name": "Haferflocken", "amount": "1 1/4 Cup"},
-
             ],
             "steps": [
                 "Chiasamen mit Wasser vermengen und 5 min quellen lassen",
@@ -619,10 +779,8 @@ window.cookbook.recipes.push({
                 "Bananen zerdrücken und alle Zutaten bis auf Mandelmehl, Mehl und Haferflocken hinzugeben",
                 "Zuletzt das Mandelmehl, Mehl und Haferflocken hinzugeben",
                 "Teig für 1 h und 15 min backen"
-
             ]
         },
-
     ],
     "pictures": [
         "pictures/Banana-Bread-vegan-1.jpg",
@@ -636,15 +794,11 @@ window.cookbook.recipes.push({
     "source": "Miss Blueberrymuffins Kitchen",
     "name": "Stempelkekse",
     "tags": [
-        "Cakes & Muffins"
-
+        "Sweets"
     ],
     "notes": [
-        ""
     ],
-
     "servings": "ca 1 Blech",
-
     "times": [
         {"name": "Backzeit", "time": "10-13 min"},
         {"name": "Zubereitungszeit", "time": "30 min"}
@@ -658,7 +812,6 @@ window.cookbook.recipes.push({
                 {"name": "Ei", "amount": "1"},
                 {"name": "Vanilleextrakt", "amount": "1 Tl"},
                 {"name": "Mehl", "amount": "250 g"}
-
             ],
             "steps": [
                 "Butter zusammen mit dem Zucker cremig aufschlagen",
@@ -668,10 +821,8 @@ window.cookbook.recipes.push({
                 "Teig erneut kurz durchkneten und auf einer bemehlten Arbeitsfläche ausrollen",
                 "Teig so kalt wie möglich verarbeiten",
                 "Gebacken werden die Kekse bei 180° Ober- und Unterhitze für 10 - 13 Minuten"
-
             ]
         },
-
     ],
     "pictures": [
         "pictures/Keksstempel-3.jpg",
@@ -685,15 +836,11 @@ window.cookbook.recipes.push({
     "source": "Pinch of Yum",
     "name": "White Chocolate Blueberry Muffins",
     "tags": [
-        "Cakes & Muffins"
-
+        "Sweets"
     ],
     "notes": [
-        ""
     ],
-
     "servings": "12 Muffins",
-
     "times": [
         {"name": "Backzeit", "time": "15 min"},
         {"name": "Zubereitungszeit", "time": "10 min"}
@@ -713,7 +860,6 @@ window.cookbook.recipes.push({
                 {"name": "Salz", "amount": "1/4 Tl"},
                 {"name": "Weiße Schokolade (grob gehackt)", "amount": "1/2 Cup"},
                 {"name": "Frische Blaubeeren", "amount": "3/4 Cup"}
-
             ],
             "steps": [
                 "Backofen auf 180°C vorheizen",
@@ -722,10 +868,8 @@ window.cookbook.recipes.push({
                 "Mehlmischung in die Butter-Zucker-Mischung geben und vorrsichtig verrühren",
                 "Weiße Schokolade und Blaubeeren hinzufügen, leicht verrühren",
                 "Teig in 12 Muffinförmchen geben und für 13-15 min backen"
-
             ]
         },
-
     ],
     "pictures": [
         "pictures/white-chocolate-blueberry-muffins-1.jpg",
@@ -736,81 +880,19 @@ window.cookbook.recipes.push({
 
 window.cookbook.recipes.push({
     "date": "20.08.2017",
-    "source": "koch-rezepte.me",
-    "name": "Weißbrot",
-    "tags": [
-        "Brot"
-
-    ],
-    "notes": [
-        ""
-    ],
-
-    "servings": "1 Brot",
-
-    "times": [
-        {"name": "Ruhezeit", "time": "90 min"},
-        {"name": "Zubereitungszeit", "time": "30 min"}
-    ],
-    "parts": [
-        {
-            "name": "",
-            "ingredients": [
-                {"name": "Weizenmehl", "amount": "500"},
-                {"name": "Milch", "amount": "150 ml"},
-                {"name": "Wasser", "amount": "120 ml"},
-                {"name": "Zucker", "amount": "1 Tl"},
-                {"name": "Frische Hefe", "amount": "1/2 Würfel"},
-                {"name": "Sonnenblumenöl", "amount": "2 El"},
-                {"name": "Salz", "amount": "1 Tl"}
-
-            ],
-            "steps": [
-                "Mehl in eine Schüssel geben",
-                "Zucker und Hefe in die Mitte geben",
-                "Etwawws von der Milch für den Vorteig nehmen und vermischen",
-                "Vorteig 30 min ruhen lassen",
-                "Die restliche Milch mit Wasser und Öl auf 30 °C erwärmen",
-                "Die Milch-Öl-Wasser-Mischung unter das Mehl mischen und kneten",
-                "Teig abgedeckt 30 minuten an einem warmen Ort ruhen lassen",
-                "Teig nochmals kneten und die Kastenform geben",
-                "Teig in der Kastenform nochmal 20 min ruhen lassen",
-                "Brotteig mit etwas Milch und Öl bestreichen",
-                "Brot bei 180 °C ca. 45 backen"
-
-
-            ]
-        },
-
-
-
-    ],
-    "pictures": [
-        "pictures/weissbrot-3.jpg",
-        "pictures/weissbrot-2.jpg",
-        "pictures/weissbrot-1.jpg"
-    ]
-});
-
-window.cookbook.recipes.push({
-    "date": "20.08.2017",
     "source": "Sally's Baking Addiction",
     "name": "Carrot Cake",
     "tags": [
-        "Cakes & Muffins"
-
+        "Sweets"
     ],
     "notes": [
         "Tastes the best the next day"
     ],
-
     "servings": "1 Cake oder 12 Cupcakes",
-
     "times": [
         {"name": "Zubereitsungszeit", "time": ""},
         {"name": "Backzeit", "time": "ca. 35 min"}
     ],
-
    "parts": [
         {
             "name": "Carrot Cake",
@@ -827,7 +909,6 @@ window.cookbook.recipes.push({
                 {"name": "Salz", "amount": "2/2 Tl"},
                 {"name": "Karotten (fein geraspelt)", "amount": "2 Cup (260 g)"},
                 {"name": "Pecannüsse (grob gehackt)", "amount": "3/4 Cup"}
-
             ],
             "steps": [
                 "Backofen auf 180°C vorheizen",
@@ -844,7 +925,6 @@ window.cookbook.recipes.push({
                 "Den Kuchen für 32-38 backen (Do not overbake!)",
             ]
         },
-
         {
             "name": "Cream Cheese Frosting",
             "ingredients": [
@@ -854,7 +934,6 @@ window.cookbook.recipes.push({
                 {"name": "Schlagsahne", "amount": "30 ml"},
                 {"name": "Vanilleextrakt", "amount": "2 Tl"},
                 {"name": "Salz", "amount": "1 Prise"}
-
             ],
             "steps": [
                 "Frischkäse und Butter verrühren (ca. 2-3 min)",
@@ -866,7 +945,6 @@ window.cookbook.recipes.push({
             ]
         }
     ],
-
     "pictures": [
         "pictures/Super-Moist-Carrot-Cake-3.jpg",
         "pictures/Super-Moist-Carrot-Cake-2.jpg",
@@ -880,20 +958,16 @@ window.cookbook.recipes.push({
     "name": "Steamed vegetable Buns",
     "tags": [
         "Asian",
-        "Vegan"
-
+        "Lunchbox"
     ],
     "notes": [
         "Ruhezeit Teig: 1 h"
     ],
-
     "servings": "14 Buns",
-
     "times": [
         {"name": "Zubereitsungszeit", "time": "laaange"},
         {"name": "Ruhezeit Teig", "time": "75 min"}
     ],
-
     "parts": [
         {
             "name": "Für den Teig",
@@ -906,7 +980,6 @@ window.cookbook.recipes.push({
                 {"name": "Maisstärke", "amount": "2 Tl (20 gr)"},
                 {"name": "Salz", "amount": "1/4 Tl"},
                 {"name": "Natron", "amount": "1/8 Tl (1 gr)"}
-
             ],
             "steps": [
                 "Wasser, Hefe und Zucker verrühren bis sich die Hefe auflöst",
@@ -920,7 +993,6 @@ window.cookbook.recipes.push({
                 "Teig in 10 cm Kreise ausrollen (in der Mitte etwas dicker als am Rand)"
             ]
         },
-
         {
             "name": "Für die Füllung",
             "ingredients": [
@@ -934,7 +1006,6 @@ window.cookbook.recipes.push({
                 {"name": "Weißer Pfeffer", "amount": "1/8 Tl"},
                 {"name": "Sesamöl", "amount": "1/2 Tl"},
                 {"name": "Salz", "amount": "nach Geschmack"}
-
             ],
             "steps": [
                 "In einem großen Topf Wasser zum kochen bringen",
@@ -951,16 +1022,13 @@ window.cookbook.recipes.push({
                 "Anschließend 1 Tl Öl, Sojasauce, Zucker, Sesamöl und Pfeffer hinzugeben",
                 "Je nach Geschmack salzen",
                 "Die Füllung zum Marinieren in den Küschrank stellen"
-
             ]
         },
-
         {
             "name": "Für die Buns",
             "ingredients": [
                 {"name": "Teig", "amount": "14 Stück (10 cm Kreise)"},
                 {"name": "Füllung", "amount": ""}
-
 
             ],
             "steps": [
@@ -973,11 +1041,9 @@ window.cookbook.recipes.push({
                 "Jetzt die Herdplatte ausschalten und die Buns für weitere 5 Minuten ruhen lassen",
                 "Der Deckel das Dampfkorbes darf noch nicht geöffnet werden!",
                 "Auch für den zweiten Durchgang mit kaltem Wasser beginnen!"
-
             ]
         },
     ],
-
     "pictures": [
         "pictures/vegetable-buns-2.jpg",
         "pictures/vegetable-buns-1.jpg",
@@ -990,21 +1056,15 @@ window.cookbook.recipes.push({
     "source": "Family & Friends",
     "name": "Sauerteig-Brot",
     "tags": [
-        "Brot",
-        "Vegan"
-
+        "Brot"
     ],
     "notes": [
-        ""
     ],
-
     "servings": "1 großes Brot",
-
     "times": [
         {"name": "Zubereitsungszeit", "time": "10 min"},
         {"name": "Backzeit", "time": "40 min"}
     ],
-
     "parts": [
         {
             "name": "Tag 1",
@@ -1012,14 +1072,12 @@ window.cookbook.recipes.push({
                 {"name": "Sauerteig", "amount": "50 g"},
                 {"name": "Roggenmehl", "amount": "230 g"},
                 {"name": "Wasser (lauwarm)", "amount": "330 ml"}
-
             ],
             "steps": [
                 "Sauerteig mit 230 g Roggenmehl und 330 g lauwarmes Wasser verführen ",
                 "24 h stehen lassen (nicht im Kühlschrank, mit Deckel)"
             ]
         },
-
         {
             "name": "Tag 2",
             "ingredients": [
@@ -1029,7 +1087,6 @@ window.cookbook.recipes.push({
                 {"name": "Trockenhefe", "amount": "1 Packung"},
                 {"name": "Salz", "amount": "1 EL"},
                 {"name": "Körner", "amount": "nach Geschmack"}
-
             ],
             "steps": [
                 "Vom Teig 50 g Sauerteig abnehmen",
@@ -1041,7 +1098,6 @@ window.cookbook.recipes.push({
             ]
         }
     ],
-
     "pictures": [
         "pictures/sauerteig-1.jpg",
         "pictures/sauerteig-2.jpg",
@@ -1054,15 +1110,12 @@ window.cookbook.recipes.push({
     "source": "Hello Fresh",
     "name": "Pastinaken-Maronen-Suppe",
     "tags": [
-        "Suppe"
-
+        "Soup & One Pot"
     ],
     "notes": [
         "Dazu passt Baguette"
     ],
-
     "servings": "2 Portionen",
-
     "times": [
         {"name": "Zubereitungszeit", "time": "30 min"}
     ],
@@ -1079,7 +1132,6 @@ window.cookbook.recipes.push({
                 {"name": "Zitrone", "amount": "1/2"},
                 {"name": "Milch", "amount": "125 ml"},
                 {"name": "Muskatnuss (gemahlen)", "amount": "1 g"}
-
             ],
             "steps": [
                 "Kartoffeln und Pastinaken schälen und in ca. 2 cm große Würfel schneiden",
@@ -1096,11 +1148,8 @@ window.cookbook.recipes.push({
                 "Anschließend mit Zitronensaft, Salz, Pfeffer und Muskatnuss abschmecken",
                 "Mit restlichen gehackten Maronen, Kresse und Schnittlauch bestreuen"
 
-
             ]
         },
-
-
 
     ],
     "pictures": [
@@ -1115,16 +1164,11 @@ window.cookbook.recipes.push({
     "source": "Eat this",
     "name": "Vegane Bratensauce",
     "tags": [
-        "Vegan",
         "Saucen & Dips"
-
     ],
     "notes": [
-        ""
     ],
-
     "servings": "ca. 300 ml",
-
     "times": [
         {"name": "Zubereitungszeit", "time": "30 min"}
     ],
@@ -1148,7 +1192,6 @@ window.cookbook.recipes.push({
                 {"name": "Rotweinessig", "amount": "1 EL"},
                 {"name": "mittelscharfer Senf", "amount": "1/2 TL"}
 
-
             ],
             "steps": [
                 "Zwiebel in feine Streifen, Champignons in Scheiben schneiden",
@@ -1167,11 +1210,8 @@ window.cookbook.recipes.push({
                 "Sauce anschließend zurück in den Topf geben und erneut kurz aufkochen",
                 "Die passierte Sauce weitere 5-10 Minuten einreduzieren lassen"
 
-
             ]
         },
-
-
 
     ],
     "pictures": [
@@ -1186,15 +1226,12 @@ window.cookbook.recipes.push({
     "source": "Hello Fresh",
     "name": "Mediterrane Fladenbrot-Pizza mit Feta und Paprika-Antipasti",
     "tags": [
-        "Quiche & Flammkuchen"
-
+        "Quiche & Flammkuchen",
+        "Lunchbox"
     ],
     "notes": [
-        ""
     ],
-
     "servings": "2 Portionen",
-
     "times": [
         {"name": "Zubereitungszeit", "time": "30 min"}
     ],
@@ -1206,16 +1243,13 @@ window.cookbook.recipes.push({
                 {"name": "Sahne-Joghurt", "amount": "200 g"},
                 {"name": "Koriander (gemahlen)", "amount": "2 g"},
                 {"name": "Salz & Pfeffer", "amount": "Zum Abschmecken"}
-
             ],
             "steps": [
                 "Knoblauch schälen und in eine kleine Schüssel pressen",
                 "Sahne-Joghurt, Koriander, 1/2 EL Wasser, etwas Salz und Pfeffer dazu geben",
                 "Bis bis zum Anrichten im Kühlschrank ziehen lassen"
-
             ]
         },
-
         {
             "name": "Für die Fladenbrot-Pizza",
             "ingredients": [
@@ -1225,7 +1259,6 @@ window.cookbook.recipes.push({
                 {"name": "Tomaten", "amount": "1"},
                 {"name": "Feta", "amount": "200 g"},
                 {"name": "Fladenbrot", "amount": "1 g"}
-
             ],
             "steps": [
                 "Backofen auf 200 °C (Grillfunktion) vorheizen",
@@ -1238,10 +1271,8 @@ window.cookbook.recipes.push({
                 "Dann mit Zwiebeln, Tomaten und Paprika belegen und den restlichen Feta obendrauf verteilen",
                 "Im Ofen auf dem höchsten Einschub 5–6 Min. backen",
                 "Nach dem Backen mit Rucola bestreuen"
-
             ]
         },
-
     ],
     "pictures": [
         "pictures/Mediterrane Fladenbrot-Pizza-1.jpg",
@@ -1256,15 +1287,12 @@ window.cookbook.recipes.push({
     "name": "Rucola-Birnen-Salat",
     "tags": [
         "Salat",
-        "Vegan"
-
+        "Lunchbox"
     ],
     "notes": [
         "Dazu passt Rucola-Birnen-Salat"
     ],
-
     "servings": "2 Portionen",
-
     "times": [
         {"name": "Zubereitungszeit", "time": "10 min"}
     ],
@@ -1279,7 +1307,6 @@ window.cookbook.recipes.push({
                 {"name": "Essig", "amount": "1 EL"},
                 {"name": "Senf", "amount": "1 TL"},
                 {"name": "Honig", "amount": "1/2 TL"}
-
             ],
             "steps": [
                 "Rucola waschen und abtropfen lassen",
@@ -1288,10 +1315,8 @@ window.cookbook.recipes.push({
                 "Für das Dressing Öl, Essig, Senf und Honig vermengen",
                 "Dressing mit Salz und Pfeffer abschmecken",
                 "Rucola, Birne und Kürbiskerne in eine Schüssel geben und das Dressing unterheben"
-
             ]
         },
-
 
     ],
     "pictures": [
@@ -1306,15 +1331,13 @@ window.cookbook.recipes.push({
     "source": "Hello Fresh",
     "name": "Knuspriger Zwiebel- und Kräuterfrischkäse-Flammkuchen",
     "tags": [
-        "Quiche & Flammkuchen"
-
+        "Quiche & Flammkuchen",
+        "Lunchbox"
     ],
     "notes": [
         "Dazu passt Rucola-Birnen-Salat"
     ],
-
     "servings": "2 Portionen",
-
     "times": [
         {"name": "Zubereitungszeit", "time": "25 min"}
     ],
@@ -1326,7 +1349,6 @@ window.cookbook.recipes.push({
                 {"name": "Rote Zwiebel", "amount": "1"},
                 {"name": "Mozzarella (gerieben)", "amount": "75 g"},
                 {"name": "Kräuterfrischkäse", "amount": "150 g"}
-
             ],
             "steps": [
                 "Ofen auf 220°C Ober-/ Unterhitze vorheizen",
@@ -1336,10 +1358,8 @@ window.cookbook.recipes.push({
                 "Boden nach Geschmack mit Salz und Pfeffer würzen",
                 "Mit Zwiebeln belegen und mit Mozzarella bestreuen",
                 "Flammkuchen ca. 13-15 Min. auf mittlerer Schiene des Ofens knusprig backen"
-
             ]
         },
-
 
     ],
     "pictures": [
@@ -1354,16 +1374,13 @@ window.cookbook.recipes.push({
     "source": "Hello Fresh",
     "name": "Knuspriger Halloumi mit buntem Couscous-Salat",
     "tags": [
-        "Bowl",
-        "Salat"
-
+        "Salat",
+        "Lunchbox"
     ],
     "notes": [
         "Geht auch ohne Halloumi"
     ],
-
     "servings": "2 Bowls",
-
     "times": [
         {"name": "Zubereitungszeit", "time": "35 min"}
     ],
@@ -1377,18 +1394,14 @@ window.cookbook.recipes.push({
                 {"name": "Weißweinessig", "amount": "1/2 EL"},
                 {"name": "Salz & Pfeffer & Zucker", "amount": "Zum Abschmecken"}
 
-
-
             ],
             "steps": [
                 "Zitrone entsaften",
                 "Knoblauch in eine Salatschüssel pressen",
                 "Knoblauch mit Zitronensaft, Olivenöl, Essig verrühren",
                 "Mit Salz, Pfeffer und 1 Prise Zucker abschmecken"
-
             ]
         },
-
         {
             "name": "Für den Couscous-Salat",
             "ingredients": [
@@ -1401,7 +1414,6 @@ window.cookbook.recipes.push({
                 {"name": "Petersilie", "amount": "5 g"},
                 {"name": "Couscous", "amount": "150 g"},
                 {"name": "Garam masala", "amount": "2 g g"}
-
 
             ],
             "steps": [
@@ -1420,11 +1432,8 @@ window.cookbook.recipes.push({
                 "Petersilie, Frühlingszwiebeln und Kichererbsen hinzugeben",
                 "Couscous nach der Ziehzeit mit einer Gabel auflockern und unter den Salat heben",
                 "Couscous-Salat auf Tellern verteilen und mit Halloumi darauf anrichten"
-
             ]
         },
-
-
 
 
     ],
@@ -1440,15 +1449,12 @@ window.cookbook.recipes.push({
     "source": "Sonja Brodersen",
     "name": "Apfelkuchen",
     "tags": [
-        "Cakes & Muffins"
-
+        "Sweets"
     ],
     "notes": [
         "Geht auch ohne Ei"
     ],
-
     "servings": "1 Springform",
-
     "times": [
         {"name": "Backzeit", "time": "40 min"}
     ],
@@ -1463,7 +1469,6 @@ window.cookbook.recipes.push({
                 {"name": "Backpulver", "amount": "1 TL"},
                 {"name": "Vanillezucker", "amount": "1 Pck"},
                 {"name": "halbierte Äpfel (geschält)", "amount": "Für eine Springform"}
-
             ],
             "steps": [
                 "Alle Zutaten (bis auf die Äpfel) in einer Schüssel vermengen",
@@ -1474,7 +1479,6 @@ window.cookbook.recipes.push({
                 "Mit der anderen Teighälfte bedecken",
                 "Mit Zimt und Zucker bestreuen",
                 "Bei 180°C Umluft ca. 40 Minuten backen"
-
             ]
         }
     ],
@@ -1490,16 +1494,12 @@ window.cookbook.recipes.push({
     "source": "Eat this",
     "name": "Avocado Mayonaise",
     "tags": [
-        "Saucen & Dips",
-        "Vegan"
-
+        "Saucen & Dips"
     ],
     "notes": [
         "Passt zum Vincent Vegans Quarterpounder"
     ],
-
     "servings": "Für 2 - 3 Burger",
-
     "times": [
         {"name": "Zubereitsungszeit", "time": "10 min"}
     ],
@@ -1512,7 +1512,6 @@ window.cookbook.recipes.push({
                 {"name": "Olivenöl", "amount": "2 EL"},
                 {"name": "Saft einer Zitrone", "amount": "1/2"},
                 {"name": "Salz und Pfeffer", "amount": "Zum Abschmecken"}
-
             ],
             "steps": [
                 "Avocado schälen und Stein entfernen",
@@ -1532,16 +1531,11 @@ window.cookbook.recipes.push({
     "source": "Eat this",
     "name": "Vincent Vegans Quarterpounder",
     "tags": [
-        "Sandwich & Burger",
-        "Vegan"
-
+        "Sandwich & Burger"
     ],
     "notes": [
-        ""
     ],
-
     "servings": "4 Burger",
-
     "times": [
         {"name": "Zubereitsungszeit", "time": "60 min"}
     ],
@@ -1562,7 +1556,6 @@ window.cookbook.recipes.push({
                 {"name": "Olivenöl", "amount": "2 EL + 2 EL"},
                 {"name": "Meersalz", "amount": "2 TL"},
                 {"name": "Wasser", "amount": "5-6 EL"}
-
             ],
             "steps": [
                 "Die Zwiebel in feine Ringe schneiden und in 1 TL Olivenöl anbraten",
@@ -1578,7 +1571,6 @@ window.cookbook.recipes.push({
                 "Patties in Olivenöl durchbraten"
             ]
         },
-
         {
             "name": "Für die Burger",
             "ingredients": [
@@ -1590,7 +1582,6 @@ window.cookbook.recipes.push({
                 {"name": "Senf", "amount": ""},
                 {"name": "Ketchup", "amount": ""},
                 {"name": "Salat", "amount": ""}
-
             ],
             "steps": [
                 "Avocado-Mayonaise zubereiten",
@@ -1610,16 +1601,11 @@ window.cookbook.recipes.push({
     "source": "Eat this",
     "name": "Indischer Mango Lassi",
     "tags": [
-        "Drinks",
-        "Vegan"
-
+        "Drinks"
     ],
     "notes": [
-        ""
     ],
-
     "servings": "2 große Gläser",
-
     "times": [
         {"name": "Zubereitsungszeit", "time": "10 min"}
     ],
@@ -1631,7 +1617,6 @@ window.cookbook.recipes.push({
                 {"name": "Sojajoghurt (natur", "amount": "250 ml"},
                 {"name": "Sojamilch", "amount": "100 ml"},
                 {"name": "Salz", "amount": "1 Prise"}
-
             ],
             "steps": [
                 "Mango schälen",
@@ -1651,16 +1636,11 @@ window.cookbook.recipes.push({
     "source": "Eat this",
     "name": "Detox Lemonade",
     "tags": [
-        "Drinks",
-        "Vegan"
-
+        "Drinks"
     ],
     "notes": [
-        ""
     ],
-
     "servings": "2 große Gläser",
-
     "times": [
         {"name": "Zubereitsungszeit", "time": "10 min"}
     ],
@@ -1672,7 +1652,6 @@ window.cookbook.recipes.push({
                 {"name": "Mandarinen", "amount": "3"},
                 {"name": "Kokosblütensirup", "amount": "2 EL"},
                 {"name": "Wasser (kalt)", "amount": "1 Liter"}
-
             ],
             "steps": [
                 "Zitronen auspressen",
@@ -1693,16 +1672,11 @@ window.cookbook.recipes.push({
     "source": "Eat this",
     "name": "Thai-Reispudding mit Mangopüree",
     "tags": [
-        "Dessert",
-        "Vegan"
-
+        "Sweets"
     ],
     "notes": [
-        ""
     ],
-
     "servings": "2-3 Portionen",
-
     "times": [
         {"name": "Zubereitsungszeit", "time": "60 min"}
     ],
@@ -1719,7 +1693,6 @@ window.cookbook.recipes.push({
                 {"name": "Bio-Zitronenzesten", "amount": "1/2 TL"},
                 {"name": "Meersalz", "amount": "1 Prise"},
                 {"name": "Minze", "amount": "Zum Anrichten"}
-
             ],
             "steps": [
                 "Milchreis, Kokosmilch, Sojamilch, Agavendicksaft und Prise Salz in einem Topf verrühren, zum Kochen bringen",
@@ -1746,9 +1719,7 @@ window.cookbook.recipes.push({
     "source": "Eat this",
     "name": "Lasagne Bolognese",
     "tags": [
-        "Pasta",
-        "Vegan"
-
+        "Pasta & Gnocchi"
     ],
     "notes": [
         "Yummilicious"
@@ -1792,9 +1763,7 @@ window.cookbook.recipes.push({
                 "Backofen auf 180 °C Ober-/Unterhitze vorheizen"
             ]
 
-
         },
-
         {
             "name": "Für die Bechamel-Sauce",
             "ingredients": [
@@ -1812,15 +1781,12 @@ window.cookbook.recipes.push({
                 "Anschließend vom Herd nehmen und beiseite stellen"
             ]
 
-
         },
-
         {
             "name": "Für die Lasagne",
             "ingredients": [
                 {"name": "Lasagne-Platten", "amount": "1/2 Packung"},
                 {"name": "Frischer Basilikum", "amount": "Als Topping"}
-
             ],
             "steps": [
                 "Auflaufform gut einfetten",
@@ -1831,9 +1797,7 @@ window.cookbook.recipes.push({
                 "Mit frischem Basilikum toppen und sofort servieren"
             ]
 
-
         }
-
 
     ],
     "pictures": [
@@ -1848,10 +1812,9 @@ window.cookbook.recipes.push({
     "source": "Essen & Trinken",
     "name": "Penne mit Spinat-Erdnuss-Sauce",
     "tags": [
-        "Pasta"
+        "Pasta & Gnocchi"
     ],
     "notes": [
-        ""
     ],
     "times": [
         {"name": "Zubereitungszeit", "time": "30 min"}
@@ -1873,7 +1836,6 @@ window.cookbook.recipes.push({
                 {"name": "Sambal Oelek", "amount": "1 TL"},
                 {"name": "Limettensaft", "amount": "2 EL"},
                 {"name": "Erdnusskerne", "amount": "2 EL"}
-
             ],
             "steps": [
                 "1 Zwiebel, 1 Knoblauchzehe und 20 g frischen Ingwer fein würfeln",
@@ -1901,9 +1863,7 @@ window.cookbook.recipes.push({
     "name": "Bangkok Coconut Curry Noodle Bowls",
     "tags": [
         "Bowl",
-        "Vegan",
         "Asian"
-
     ],
     "notes": [
         "Direkt vor dem Essen zubereiten"
@@ -1932,10 +1892,8 @@ window.cookbook.recipes.push({
                 "Kokosmilch, Zucker, Sambal Oelek, Fisch Sauce und Soja Sauce hinzufügen",
                 "Für 15 min köcheln lassen (leicht eindicken lassen)",
                 "Je nach Geschmack die Gemüsebrühe hinzufügen, ggf. weiter einköcheln lassen"
-
             ]
         },
-
         {
             "name": "Für die Bowls",
             "ingredients": [
@@ -1971,16 +1929,12 @@ window.cookbook.recipes.push({
     "source": "Vegan Kann Jeder",
     "name": "Morning Glory",
     "tags": [
-        "Breakfast",
-        "Vegan"
-
+        "Breakfast"
     ],
     "notes": [
         "Auch mit Erdnussmus; für 2 Portionen"
     ],
-
     "servings": "2 Gläser",
-
     "times": [
         {"name": "Zubereitungszeit", "time": "10 min"}
     ],
@@ -1995,7 +1949,6 @@ window.cookbook.recipes.push({
                 {"name": "Sojajoghurt (natur)", "amount": "3-4 EL"},
                 {"name": "Weintrauben", "amount": "6-8"},
                 {"name": "Zimt", "amount": "1 Prise"}
-
             ],
             "steps": [
                 "Couscous nach Packungsanweisung zubereiten",
@@ -2004,7 +1957,6 @@ window.cookbook.recipes.push({
                 "Darüber etwas Bananen- und Mandelmus schichten",
                 "anschließend kommen die Beeren und Weintrauben",
                 "Alles wiederholen und mit eienr Prise Zimt bestäuben"
-
             ]
         }
     ],
@@ -2019,16 +1971,12 @@ window.cookbook.recipes.push({
     "name": "Bananenbrot mit dunkler Schokolade",
     "tags": [
         "Brot",
-        "Vegan",
-        "Cakes & Muffins"
-
+        "Sweets"
     ],
     "notes": [
         "Kastenform ca. 30 cm"
     ],
-
     "servings": "1 Brot",
-
     "times": [
         {"name": "Backzeit", "time": "50 min"}
     ],
@@ -2047,7 +1995,6 @@ window.cookbook.recipes.push({
                 {"name": "neutrales Rapsöl", "amount": "80 ml"},
                 {"name": "Apfelessig", "amount": "1 TL"},
                 {"name": "Mandelmus (optional)", "amount": "1 El"}
-
             ],
             "steps": [
                 "Backofen auf 180°C vorheizen",
@@ -2066,7 +2013,6 @@ window.cookbook.recipes.push({
         "pictures/Bananenbrot-mit-Dinkel-1.jpg",
         "pictures/Bananenbrot-mit-Dinkel-2.jpg",
         "pictures/Bananenbrot-mit-Dinkel-3.jpg"
-
     ]
 });
 
@@ -2075,16 +2021,13 @@ window.cookbook.recipes.push({
     "source": "Chefkoch",
     "name": "Tom Kha Gai mit Tofu",
     "tags": [
-        "Suppe",
-        "Vegan"
-
+        "Soup & One Pot",
+        "Asian"
     ],
     "notes": [
         "auch mit Hühnchen möglich"
     ],
-
     "servings": "6 Portionen",
-
     "times": [
         {"name": "Zubereitungszeit", "time": "60 min"}
     ],
@@ -2103,7 +2046,6 @@ window.cookbook.recipes.push({
                 {"name": "Champignons", "amount": "150 g"},
                 {"name": "Saft von Limetten", "amount": "2"},
                 {"name": "Palmzucker", "amount": "1 TL"}
-
             ],
             "steps": [
                 "Zitronengras in 4 cm lange Stücke schneiden, leicht zerdrücken",
@@ -2122,7 +2064,6 @@ window.cookbook.recipes.push({
                 {"name": "Frühlingszwiebeln", "amount": "5"},
                 {"name": "Chilischoten", "amount": "2"}
 
-
             ],
             "steps": [
                 "In Schalen anrichten und mit Chilistreifen, Frühlingszwiebeln und Koriander garnieren"
@@ -2133,7 +2074,6 @@ window.cookbook.recipes.push({
         "pictures/Tom-Kha-Gai-mit-Tofu-1.jpg",
         "pictures/Tom-Kha-Gai-mit-Tofu-2.jpg",
         "pictures/Tom-Kha-Gai-mit-Tofu-3.jpg"
-
     ]
 });
 
@@ -2142,15 +2082,12 @@ window.cookbook.recipes.push({
     "source": "Pinch Of Yum",
     "name": "Carrot Cake Cupcakes With Cream Cheese Frosting",
     "tags": [
-        "Cakes & Muffins"
-
+        "Sweets"
     ],
     "notes": [
         "Backform 23 x 33 cm"
     ],
-
     "servings": "1 Cake or 24 Cupcakes",
-
     "times": [
         {"name": "Zubereitungszeit", "time": "60 min"}
     ],
@@ -2166,7 +2103,6 @@ window.cookbook.recipes.push({
                 {"name": "Karotten (geraspelt)", "amount": "3 Cups"},
                 {"name": "Ei", "amount": "4 Stück"},
                 {"name": "Pflanzenöl", "amount": "1 1/3 Cups"}
-
             ],
             "steps": [
                 "Ofen auf 180° C vorheizen",
@@ -2176,7 +2112,6 @@ window.cookbook.recipes.push({
                 "1 Cake: Für 50 min backen, Cupcake: Für 12-15 min backen"
             ]
         },
-
          {
             "name": "Für das Topping",
             "ingredients": [
@@ -2184,7 +2119,6 @@ window.cookbook.recipes.push({
                 {"name": "Butter", "amount": "112 g"},
                 {"name": "Vanille", "amount": "2 TL"},
                 {"name": "Puderzucker", "amount": "450 g"}
-
 
             ],
             "steps": [
@@ -2194,13 +2128,11 @@ window.cookbook.recipes.push({
                 "Kühlen und kalt servieren"
             ]
         },
-
     ],
     "pictures": [
         "pictures/carrot-cake-cupcakes-1.jpg",
         "pictures/carrot-cake-cupcakes-2.jpg",
         "pictures/carrot-cake-cupcakes-3.jpg"
-
     ]
 });
 
@@ -2209,20 +2141,14 @@ window.cookbook.recipes.push({
     "source": "Pinch Of Yum",
     "name": "Creamy Kale Pasta",
     "tags": [
-        "Pasta",
-        "Vegan"
-
+        "Pasta & Gnocchi"
     ],
     "notes": [
-        ""
     ],
-
     "servings": "4 Portionen",
-
     "times": [
         {"name": "Zubereitungszeit", "time": "30 min"},
         {"name": "Vorbereitungszeit", "time": "2 h"}
-
     ],
     "parts": [
         {
@@ -2232,7 +2158,6 @@ window.cookbook.recipes.push({
                 {"name": "Olivenöl", "amount": "1 EL"},
                 {"name": "Knoblauch (zerhackt)", "amount": "2 Stück"},
                 {"name": "Salz", "amount": "Zum Abschmecken"}
-
             ],
             "steps": [
                 "Olivenöl in einer Pfanne erhitzen",
@@ -2240,7 +2165,6 @@ window.cookbook.recipes.push({
                 "Mit Salz abschmecken"
             ]
         },
-
          {
             "name": "Für die Sauce",
             "ingredients": [
@@ -2250,7 +2174,6 @@ window.cookbook.recipes.push({
                 {"name": "Salt", "amount": "1 TL"},
                 {"name": "Olivenöl", "amount": "1 Cup"},
 
-
             ],
             "steps": [
                 "Alle Zutaten im Mixer verrühren",
@@ -2258,14 +2181,11 @@ window.cookbook.recipes.push({
                 "Kühlen und kalt servieren"
             ]
         },
-
         {
             "name": "Für die Pasta",
             "ingredients": [
                 {"name": "Nudeln", "amount": "225 g"},
                 {"name": "Parmesan", "amount": "Als Topping"},
-
-
 
             ],
             "steps": [
@@ -2276,13 +2196,11 @@ window.cookbook.recipes.push({
             ]
         },
 
-
     ],
     "pictures": [
         "pictures/Kale-Pasta-1.jpg",
         "pictures/Kale-Pasta-2.jpg",
         "pictures/Kale-Pasta-3.jpg"
-
     ]
 });
 
@@ -2291,19 +2209,13 @@ window.cookbook.recipes.push({
     "source": "Pinch Of Yum",
     "name": "Mediterranean Quinoa Bowls With Roasted Red Pepper Sauce",
     "tags": [
-        "Vegan",
         "Bowl"
-
     ],
     "notes": [
-        ""
     ],
-
     "servings": "4 Portionen",
-
     "times": [
         {"name": "Zubereitungszeit", "time": "30 min"}
-
     ],
     "parts": [
         {
@@ -2316,13 +2228,11 @@ window.cookbook.recipes.push({
                 {"name": "Olivenöl", "amount": "1/2 Cup"},
                 {"name": "Mandeln", "amount": "1/2 Cup"}
 
-
             ],
             "steps": [
                 "Alle Zutaten im Mixer vermengen"
             ]
         },
-
          {
             "name": "Für die Bowls",
             "ingredients": [
@@ -2338,8 +2248,6 @@ window.cookbook.recipes.push({
                 {"name": "Zitronensaft", "amount": "als Dressing"},
                 {"name": "Salz & Pfeffer", "amount": "zum Abschmecken"}
 
-
-
             ],
             "steps": [
                 "Quinoa nach Packungsanleitung zubereiten",
@@ -2347,14 +2255,11 @@ window.cookbook.recipes.push({
             ]
         },
 
-
-
     ],
     "pictures": [
         "pictures/Mediterranean-Bowl-1.jpg",
         "pictures/Mediterranean-Bowl-2.jpg",
         "pictures/Mediterranean-Bowl-3.jpg"
-
     ]
 });
 
@@ -2363,22 +2268,15 @@ window.cookbook.recipes.push({
     "source": "Cookingcasualties",
     "name": " Reisnudelsalat mit mariniertem Tofu",
     "tags": [
-        "Vegan",
         "Bowl"
-
     ],
     "notes": [
-        ""
     ],
-
     "servings": "2-3 Portionen",
-
     "times": [
         {"name": "Zubereitungszeit", "time": "45 min"}
-
     ],
     "parts": [
-
         {
             "name": "Für die Marinade",
             "ingredients": [
@@ -2388,15 +2286,12 @@ window.cookbook.recipes.push({
                 {"name": "Zucker", "amount": "1 EL"},
                 {"name": "Chili (rot)", "amount": "1"}
 
-
             ],
             "steps": [
                 "Tofu in Würfel schneiden",
                 "Im gehackten Knoblauch, gehackter Chili, gehacktem Zitronengras (nur die weichen, inneren Lagen der Stengel), Zucker, Fischsauce und Pfeffer marinieren."
-
             ]
         },
-
 
         {
             "name": "Für das Dressing",
@@ -2408,7 +2303,6 @@ window.cookbook.recipes.push({
                 {"name": "Knoblauchzehe", "amount": "2"},
                 {"name": "Chili (rot)", "amount": "1"}
 
-
             ],
             "steps": [
                 "Für das Dressing Zucker in Wasser auflösen und zu einem sehr süßen Sirup aufkochen",
@@ -2416,7 +2310,6 @@ window.cookbook.recipes.push({
                 "Knoblauch und Chili hacken und zufügen"
             ]
         },
-
 
         {
             "name": "Für den Salat",
@@ -2433,7 +2326,6 @@ window.cookbook.recipes.push({
                 {"name": "Knoblauchzehe", "amount": "1"},
                 {"name": "Zwiebel (rot, in Scheiben)", "amount": "1"}
 
-
             ],
             "steps": [
                 "Erdnüsse rösten und grob hacken",
@@ -2447,14 +2339,11 @@ window.cookbook.recipes.push({
             ]
         },
 
-
-
     ],
     "pictures": [
         "pictures/reisnudelsalat-mit-tofu-1.jpg",
         "pictures/reisnudelsalat-mit-tofu-2.jpg",
         "pictures/reisnudelsalat-mit-tofu-3.jpg"
-
     ]
 });
 
@@ -2464,11 +2353,9 @@ window.cookbook.recipes.push({
     "name": "Veganes „Chicken-Style“ Sandwich",
     "tags": [
         "Sandwich & Burger",
-        "Vegan"
-
+        "Lunchbox"
     ],
     "notes": [
-        ""
     ],
     "times": [
         {"name": "Zubereitsungszeit", "time": "30 min"}
@@ -2483,7 +2370,6 @@ window.cookbook.recipes.push({
                 {"name": "Mayonnaise (vegan)", "amount": "3 EL"},
                 {"name": "Sojasauce", "amount": "2 TL"},
                 {"name": "Salz & Pfeffer", "amount": "Zum Abschmecken"}
-
             ],
             "steps": [
                 "Kicherbsen im Mixer zerkleinern",
@@ -2493,25 +2379,20 @@ window.cookbook.recipes.push({
                 "Mit Salz und Pfeffer abschmecken"
             ]
 
-
         },
-
         {
             "name": "Für das Sandwich",
             "ingredients": [
                 {"name": "Gurke", "amount": "in Scheiben geschnitten"},
                 {"name": "Chicoree-Salatblätter", "amount": ""},
                 {"name": "Volkornbrötchen", "amount": ""}
-
             ],
             "steps": [
                 "Brötchen aufschneiden",
                 "Brötchen mit „Chicken-Salat“, Gurke und dem Chicoree-Salat belegen"
             ]
 
-
         },
-
 
     ],
     "pictures": [
@@ -2526,12 +2407,9 @@ window.cookbook.recipes.push({
     "source": "Eat this",
     "name": "Apfel-Pite",
     "tags": [
-        "Cakes & Muffins",
-        "Vegan"
-
+        "Sweets"
     ],
     "notes": [
-        ""
     ],
     "times": [
         {"name": "Zubereitsungszeit", "time": "45 min"},
@@ -2547,7 +2425,6 @@ window.cookbook.recipes.push({
                 {"name": "Salz", "amount": "1 Prise"},
                 {"name": "Zucker", "amount": "140 g"},
                 {"name": "Soja-Joghurt", "amount": "5 EL"}
-
             ],
             "steps": [
                 "Mehl und Margarine vermengen",
@@ -2562,9 +2439,7 @@ window.cookbook.recipes.push({
                 "Teigoberfläche wieder vorsichtig mit einer Gabel in regelmäßigen Abständen einstechen"
             ]
 
-
         },
-
         {
             "name": "Für die Füllung",
             "ingredients": [
@@ -2572,7 +2447,6 @@ window.cookbook.recipes.push({
                 {"name": "Semmelbrösel", "amount": "3-4 EL"},
                 {"name": "Sojasahne", "amount": "20 ml"},
                 {"name": "Mandelsplitter", "amount": "Zum Bestreuen"}
-
             ],
             "steps": [
                 "Äpfel schälen und in Schnitze schneiden, in einen Topf geben",
@@ -2585,15 +2459,388 @@ window.cookbook.recipes.push({
                 "Apfel-Pite im vorgeheizten Backofen bei 180°C ca. 30-40 Min. gloldbraun backen"
             ]
 
-
         },
-
 
     ],
     "pictures": [
         "pictures/Apfel-Pite-1.jpg",
         "pictures/Apfel-Pite-2.jpg",
         "pictures/Apfel-Pite-3.jpg"
+    ]
+});
 
+window.cookbook.recipes.push({
+    "date": "03.08.2019",
+    "source": "Hello Fresh",
+    "name": "Gnocchi-Pfanne mit würziger Tomaten-Thymian-Soße",
+    "tags": [
+        "Pasta & Gnocchi"
+    ],
+    "notes": [
+    ],
+    "times": [
+        {"name": "Zubereitsungszeit", "time": "30 min"},
+        {"name": "Backzeit", "time": " min"}
+    ],
+    "parts": [
+        {
+            "name": "",
+            "ingredients": [
+                {"name": "Gnocchi", "amount": "500 g"},
+                {"name": "Thymian (kalt)", "amount": "5 Stängel"},
+                {"name": "veganer Parmesan", "amount": "20 g"},
+                {"name": "Zwiebeln", "amount": "1/2"},
+                {"name": "weiße Champignons", "amount": "200 g"},
+                {"name": "Pistazien", "amount": "10 g"},
+                {"name": "Kirschtomaten", "amount": "1 Dose"}
+            ],
+            "steps": [
+                "Gnocchi in reichlich kochendes Wasser garen (ca. 30 sek)",
+                "Gnocchi danach in ein Sieb abgießen und mit kaltem Wasser abschrecken",
+                "Thymian trocken schütteln, Blätter abzufpen und grob hacken",
+                "Zwieben fein würfeln, Champignons in dünne Scheiben schneiden",
+                "Pistazien in einer Pfanne ohne Fettzugabe anrösten, bis sie duften und dann feinhacken",
+                "Öl in einer Pfanne erhitzen, Gnocchi zugeben und unter Wenden 3-5 Min bräunlich anbraten",
+                "Gnocchi anschließend herausnehmen und beiseitestellen",
+                "Zwiebelwürfel andüsten, Champignons hinzfügen und mitbraten, bis sie ein wenig Flüssigkeit abgeben",
+                "Die Kirschtomaten hinzugeben und je 2/3 des Parmesans und Thymians hinzugeben",
+                "Mit Salz, Pfeffer und einer Prise Zucker abschmecken",
+                "Temperatur reduzieren und 5-8 Minuten weiter köcheln lassen",
+                "Gnocchi zufügen und alles noch einmal kuzr erhitzen",
+                "Gnocchi-Pfanne auf Tellern verteilen, mit restlichem Parmesan, Thymian und Pistazien bestreuen"
+            ]
+
+        },
+
+
+    ],
+    "pictures": [
+        "pictures/Gnocchi-Pfanne-Tomaten-Thymian-1.jpeg",
+        "pictures/Gnocchi-Pfanne-Tomaten-Thymian-2.jpeg",
+        "pictures/Gnocchi-Pfanne-Tomaten-Thymian-3.jpeg"
+    ]
+});
+
+window.cookbook.recipes.push({
+    "date": "10.08.2018",
+    "source": "Hello Fresh",
+    "name": "Chimchiurri - Couscous - Salat",
+    "tags": [
+        "Salat",
+        "Lunchbox"
+    ],
+    "notes": [
+    ],
+    "servings": "",
+    "times": [
+        {"name": "Zubereitungszeit", "time": "25 min"}
+    ],
+    "parts": [
+        {
+            "name": "Für den Porree-Flammkuchen",
+            "ingredients": [
+              {"name": "gelbe Paprika", "amount": "1"},
+              {"name": "Tomate", "amount": "1"},
+              {"name": "Gurke", "amount": "1"},
+              {"name": "Couscous)", "amount": "200 g"},
+              {"name": "Kumin", "amount": "1 g"},
+              {"name": "Mandelblättchen", "amount": "20 g"},
+              {"name": "Minze", "amount": "2 Stängel"}
+
+            ],
+            "steps": [
+              "400 ml Gemüsebrühe in einem großen Topf zubereiten und zum Kochen bringen",
+              "Topf von der Herdplatte ziehen, Couscous mit Kumin, 1/2 EL Olivenöl und Salz und Pfeffer einrühren",
+              "Deckel auf den Topf setzen, Couscous für 10 Min ziehen lassen",
+              "Paprika klein schneiden, Gurke und Tomate in grobe Stücke schneiden",
+              "während der Couscous zieht die Sauce zubereiten",
+              "Mandelblättchen in einer Pfanne ohne Fett anrösten bis sie duften",
+              "Couscous mit einer Gabel auflockern",
+              "Paprika-, Gurken- und Tomatenstücke sowie Mandelblättchen unterheben",
+              "Couscous-Salat mit Chimichurri-Sauce beträufeln und mit gerösteten Mandelblättchen bestreuen"
+            ]
+        },
+        {
+            "name": "Für den Salat",
+            "ingredients": [
+              {"name": "Zitrone", "amount": "1/2"},
+              {"name": "Frühlingszwiebeln", "amount": "2"},
+              {"name": "Petersilie", "amount": "3 Stängel"},
+              {"name": "Knoblauch", "amount": "1/8"},
+              {"name": "Chiliflocken", "amount": "1 g"}
+
+            ],
+            "steps": [
+              "Zitrone entsaften, Frühlingszwiebeln in feine Ringe schneiden",
+              "Petersilie trocken schütteln und Knoblauuch abziehen",
+              "alles mit 2 TL (Rotwein-) Essig, 2 EL Olivenöl und Chiliflocken in ein hohes Rührgefäß geben",
+              "mit einem Pürierstab zu einer Sauce verarbeiten",
+              "mit Salz, Pfeffer und einer Prise Zucker abschmecken"
+            ]
+        }
+    ],
+    "pictures": [
+        "pictures/Chimichurri-Couscous-Salat-1.jpeg",
+        "pictures/Chimichurri-Couscous-Salat-2.jpeg",
+        "pictures/Chimichurri-Couscous-Salat-3.jpeg"
+    ]
+});
+
+window.cookbook.recipes.push({
+    "date": "03.08.2019",
+    "source": "Hello Fresh",
+    "name": "Marokkanische Karottensuppe mit gerösteten Kichererbsen",
+    "tags": [
+        "Soup & One Pot"
+    ],
+    "notes": [
+    ],
+    "times": [
+        {"name": "Zubereitsungszeit", "time": "30 min"},
+        {"name": "Backzeit", "time": " min"}
+    ],
+    "parts": [
+        {
+            "name": "",
+            "ingredients": [
+                {"name": "Karotten", "amount": "600 g"},
+                {"name": "Zwiebeln", "amount": "1"},
+                {"name": "Knoblauch", "amount": "1/8"},
+                {"name": "Za'atar", "amount": "2 g"},
+                {"name": "Koriander (getrocknet)", "amount": "2 g"},
+                {"name": "Kreuzkümmel", "amount": "2 g"},
+                {"name": "Kichererbsen (Dose)", "amount": "150 g"},
+                {"name": "Chiliflocken", "amount": "1 g"},
+                {"name": "Petersilie", "amount": "5 g"},
+                {"name": "Joghurt", "amount": "200 g"}
+            ],
+            "steps": [
+                "Karotten in Würfel schneiden, Zwiebeln fein hacken, Knoblauch pressen",
+                "650 ml heiße Gemüsebrühe zubereiten",
+                "2 EL Olivenöl in einem Topf erwärmen: Karotten, Zwiebeln, Knoblauch und Gewürzmischung hinzugeben",
+                "ca. 6 Minuten bei mittlerer Hitze glasig andünsten, mit Gemüsebrühe ablöschen",
+                "10 - 15 min weiterköcheln lassen",
+                "Kichererbsen in ein Sieb abgießen, mit kaltem Wasser abspülen und trocken tupfen",
+                "Kichererbsen mit 1 EL Olivenöl und Chiliflocken verrühren und auf einem Backblech verteilen",
+                "Kichererbsen im Ofen 10-15 Minuten knusprig backen",
+                "Karottensuppe pürieren und mit Salz, Pfeffer und Zucker abschmecken",
+                "Petersilie waschen und grob hacken"
+            ]
+
+        },
+
+
+    ],
+    "pictures": [
+        "pictures/Markkanische Karottensuppe-1.jpeg",
+        "pictures/Markkanische Karottensuppe-2.jpeg",
+        "pictures/Markkanische Karottensuppe-3.jpeg",
+    ]
+});
+
+window.cookbook.recipes.push({
+    "date": "10.08.2019",
+    "source": "Minimalist Baker",
+    "name": "Zitronenmuffins",
+    "tags": [
+        "Sweets"
+    ],
+    "notes": [
+    ],
+    "times": [
+        {"name": "Zubereitsungszeit", "time": "10 min"},
+        {"name": "Backzeit", "time": " 25 min"}
+    ],
+    "parts": [
+        {
+            "name": "",
+            "ingredients": [
+              {"name": "Eiersatz mit Leinsamen", "amount": "2"},
+              {"name": "Apfelmus", "amount": "3/4 Cup"},
+              {"name": "Zitronenabrieb", "amount": "2 gehäufte Tl"},
+              {"name": "Zitronensaft", "amount": "1/3 Cup"},
+              {"name": "Vanilleextra", "amount": "1 Tl"},
+              {"name": "Kokosöl (geschmolzen)", "amount": "1/4 Cup"},
+              {"name": "Mandelmilch (ungesüßt)", "amount": "1/4 Cup"},
+              {"name": "Ahornsirup (Alternativ: Agavendicksaft)", "amount": "1/4 Cup"},
+              {"name": "Zucker", "amount": "1/3 Cup"},
+              {"name": "Salz", "amount": "1/2 Tl"},
+              {"name": "Natron", "amount": "1 1/2 Tl"},
+              {"name": "Mohnsamen (Alternativ: Chia Samen)", "amount": "1 Tl"},
+              {"name": "Mehl", "amount": "1 Cup"},
+              {"name": "Haferflocken", "amount": "1/2 Cup"},
+              {"name": "gemahlene Mandeln (Almond meal)", "amount": "1/2 Cup"},
+              {"name": "Für die Glasur", "amount": "Puderzucker (1 Cup) und Zitronensaft"}
+
+
+            ],
+            "steps": [
+                "Backofen auf 190°C vorheizen und Muffinblech mit Förmchen auslegen",
+                "Ei-Ersatz vorbereiten: 2 Tl Leinsamen mit 5 Tl Wasser verrühren und 5 Minuten quellen lassen",
+                "Währenddessen Zitronenabrieb und -saft vorbereiten",
+                "Eiersatz, Zitronenabrieb und - saft, Öl, Mandelmilch, Ahornsirup, Zucker, Natron und Salz verrühren",
+                "Mehl, Mandeln, Haferflocken und Mohnsamen vorsichtig unterheben",
+                "Teig auf die Muffinförmchen verteilen",
+                "Muffin für 22-28 Minuten backen",
+                "Muffin 5 Minuten abkühlen lassen und dann aus der Backform entfernen",
+                "Nachdem Abkühlen mit der Glasur bestreichen"
+            ]
+
+            },
+
+    ],
+    "pictures": [
+        "pictures/Meyer-Lemon-Poppy-Seed-Muffins-1.jpg",
+        "pictures/Meyer-Lemon-Poppy-Seed-Muffins-2.jpg",
+        "pictures/Meyer-Lemon-Poppy-Seed-Muffins-3.jpg"
+    ]
+});
+
+window.cookbook.recipes.push({
+    "date": "10.08.2019",
+    "source": "My Darling Vegan",
+    "name": "Zucchini-Schoko-Muffins",
+    "tags": [
+        "Sweets"
+    ],
+    "notes": [
+    ],
+    "times": [
+        {"name": "Zubereitsungszeit", "time": "10 min"},
+        {"name": "Backzeit", "time": " 20 min"}
+    ],
+    "parts": [
+        {
+            "name": "",
+            "ingredients": [
+              {"name": "Zucchini (geraspelt)", "amount": "1 1/2 Cup (ungefähr 1 große Zucchini)"},
+              {"name": "Mehl", "amount": "1 1/4 Cup"},
+              {"name": "Kakao", "amount": "1/4 Cup"},
+              {"name": "Natron", "amount": "1 Tl"},
+              {"name": "Backpulver", "amount": "1 1/2 Tl"},
+              {"name": "Salz", "amount": "1/2 Tl"},
+              {"name": "Zimt", "amount": "1/2 Tl"},
+              {"name": "Rapsöl", "amount": "1/4 Cup"},
+              {"name": "Zucker", "amount": "1/2 Cup"},
+              {"name": "Brauner Zucker", "amount": "1/2 Cup"},
+              {"name": "Apfelmus", "amount": "1/3 Cup"},
+              {"name": "Mandelmilch (ungesüßt)", "amount": "1/4 Cup"},
+              {"name": "Vanilleextra", "amount": "1 Tl"},
+              {"name": "Schokolinsen", "amount": "1/2 Cups"}
+
+
+            ],
+            "steps": [
+                "Backofen auf 180°C vorheizen und Muffinblech mit Förmchen auslegen",
+                "Zucchini mit der Küchenmaschine raspeln",
+                "In einer Schüssel die trockenen Tagen verrühren",
+                "In einer weiteren Schüssel die restlichen Zutaten vermengen und die Zucchini hinzufügen",
+                "Den Zucchini-Teig mit den trockenen Zutaten vermengen ",
+                "Teig auf die Muffinförmchen verteilen",
+                "Muffin für 20-25 Minuten backen",
+                "Muffin 10 Minuten abkühlen lassen und dann aus der Backform entfernen"
+            ]
+            },
+
+    ],
+    "pictures": [
+        "pictures/Chocolate-Zucchini-Muffins-1.jpeg",
+        "pictures/Chocolate-Zucchini-Muffins-2.jpeg",
+        "pictures/Chocolate-Zucchini-Muffins-3.jpeg"
+    ]
+});
+
+window.cookbook.recipes.push({
+    "date": "10.08.2019",
+    "source": "Minimalist Baker",
+    "name": "Erdnussbutter Müsli-Riegel",
+    "tags": [
+        "Sweets"
+    ],
+    "notes": [
+    ],
+    "times": [
+        {"name": "Zubereitsungszeit", "time": "10 min"},
+        {"name": "Backzeit", "time": " 20 min"}
+    ],
+    "parts": [
+        {
+            "name": "",
+            "ingredients": [
+              {"name": "Haferflocken", "amount": "2 Cup"},
+              {"name": "Mandeln (gesplittert)", "amount": "3/4 Cup"},
+              {"name": "Sonnenblumenkerne", "amount": "1/4 Cup"},
+              {"name": "Kokos", "amount": "1/4 Cup"},
+              {"name": "Erdnussbutter", "amount": "1/2 Cup"},
+              {"name": "Kokosöl", "amount": "2 Tl"},
+              {"name": "Ahornsiurp", "amount": "1/4 Cup"},
+              {"name": "Medjool Datteln (entsteint und kleingehackt)", "amount": "20"},
+              {"name": "getrocknetes Obst", "amount": "2-3 Tl"}
+
+            ],
+            "steps": [
+                "Backofen auf 180°C vorheizen und 20 x 20 cm Backform mit Backpapier auslegen",
+                "Mandeln, Haferflocken und Sonnenblumenkerne auf ein großes Backblech geben und für 10 Minuten backen (bis sie goldbraun sind), gelegentlich wenden",
+                "Anschließend die Kokosraspeln hinzufügen, verrühren und für weitere 5 Minuten backen bis goldbraun",
+                "Backblech aus dem Ofen nehmen und abkühlen lassen",
+                "Währenddessen Erdnussbutter, Kokosöl und Ahornsirup in einem Klein Topf erhitzen und verrühren (ca. 3-4 Minuten)",
+                "Im Fodd Processor alles miteinander verrühren",
+                "Teig in eine 20x20 cm Backform geben und andrücken",
+                "Backform für 30 Minuten in den Gefrierschrank geben und anschließend in 9 Granola-Bars zerschneiden"
+            ]
+            },
+
+
+    ],
+    "pictures": [
+        "pictures/Erdnussbutter-Granola-bars-1.jpg",
+        "pictures/Erdnussbutter-Granola-bars-2.jpg",
+        "pictures/Erdnussbutter-Granola-bars-3.jpg"
+    ]
+});
+
+window.cookbook.recipes.push({
+    "date": "02.02.2020",
+    "source": "Vegane Lunchbox",
+    "name": "Pikantes Tomatentatar",
+    "tags": [
+        "Lunchbox",
+        "Salat"
+    ],
+    "notes": [
+    ],
+    "times": [
+        {"name": "Zubereitsungszeit", "time": "15 min"}
+    ],
+    "servings": "2",
+    "parts": [
+        {
+            "name": "",
+            "ingredients": [
+              {"name": "Tomaten", "amount": "4"},
+              {"name": "Oliven (schwarz, entstein)", "amount": "40 g"},
+              {"name": "Meersalz", "amount": "1/2 Teil"},
+              {"name": "Pfeffer", "amount": "1 Prise"},
+              {"name": "Zitrone", "amount": "1/2 Zitrone (Schale + 1 Tl Saft)"},
+              {"name": "Olivenöl", "amount": "1 El"},
+              {"name": "Agavendicksaft", "amount": "1/2 Tl"},
+              {"name": "Basilikum (gehackt)", "amount": "2 EL"}
+
+            ],
+            "steps": [
+                "Tomaten vieteln und Samen entfernen, anschließend in Würfel scheniden",
+                "Oliven ebenfalls würfeln",
+                "Tomaten- und Olivenwürfel mit den restlichen Zutaten vermengen",
+                "Nochmals mit Salz, Pfeffer und Zitronensaft abschmecken",
+                "Mit Ciabatta servieren"
+            ]
+            },
+
+
+    ],
+    "pictures": [
+        "pictures/Tomatentatar-1.jpg",
+        "pictures/Tomatentatar-2.jpg",
+        "pictures/Tomatentatar-3.jpg"
     ]
 });

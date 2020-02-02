@@ -24,7 +24,19 @@
 }
 
 .recipe-notes {
-    margin-left: 10px;
+    margin-left: 36px;
+}
+
+.recipe-times {
+  margin-left: 36px;
+}
+
+.recipe-time {
+    margin-bottom: 5px;
+}
+
+.servings {
+    margin-left: 36px;
 }
 
 .recipe-source {
@@ -40,9 +52,7 @@
     width: 154px;
     height: 154px;
     margin-bottom: 16px;
-
     object-fit: cover;
-
     border: 4px solid #404040;
     border-radius: 655px 805px 625px 805px/805px 625px 805px 655px;
 }
@@ -108,10 +118,3 @@
     vertical-align: middle;
 }
 
-.recipe-times {
-  margin-left: 10px;
-}
-
-.recipe-time {
-    margin-bottom: 5px;
-}

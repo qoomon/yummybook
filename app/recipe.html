@@ -24,6 +24,7 @@
             {{/each}}
         </div>
         <div class="recipe-name">{{name}}</div>
+
         <br>
         <div class="recipe-tags">
             {{#each tags}}
@@ -31,13 +32,35 @@
             {{/each}}
         </div>
         <br>
+
+        {{#if servings}}
+        <br>
+        <img src="graphics/font-awesome/cookie-bite-solid.svg"
+          height="16" width="16" style="float:left; margin-left: 6px;">
+        <div class="servings">
+          {{servings}}
+        </div>
+        {{/if}}
+
+        {{#if times}}
+        <br>
+        <img src="graphics/font-awesome/hourglass-solid.svg"
+          height="16" width="16" style="float:left; margin-left: 6px;">
         <div class="recipe-times">
             {{#each times}}
             <div class="recipe-time">{{name}}: {{time}}</div>
             {{/each}}
         </div>
+        {{/if}}
+
+        {{#if notes}}
         <br>
+        <br>
+        <img src="graphics/font-awesome/info-solid.svg"
+          height="16" width="16" style="float:left; margin-left: 6px;">
         <div class="recipe-notes">{{notes}}</div>
+        {{/if}}
+
         <div class="parts">
             {{#each parts}}
             <div class="part">
