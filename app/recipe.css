@@ -30,16 +30,16 @@
 .recipe-notes {
     display: flex;
     align-items: center;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 8px;
+    margin-left: 12px;
 }
 
 .recipe-times {
     display: flex;
     align-items: center;
-    margin-top: 10px;
-    margin-left: 10px;
-    line-height: 1.5em;
+    margin-top: 8px;
+    margin-left: 12px;
+    line-height: 1.3em;
 }
 
 .recipe-time {
@@ -49,8 +49,8 @@
 .servings {
     display: flex;
     align-items: center;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 8px;
+    margin-left: 12px;
 }
 
 .recipe-source {
