@@ -25,13 +25,13 @@
         </div>
         <div class="recipe-name">{{name}}</div>
 
-        <br>
+        {{#if tags}}
         <div class="recipe-tags">
             {{#each tags}}
             <span class="recipe-tag">#{{this}} </span>
             {{/each}}
         </div>
-        <br>
+        {{/if}}
 
         {{#if servings}}
         <br>
