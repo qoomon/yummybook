@@ -34,31 +34,35 @@
         {{/if}}
 
         {{#if servings}}
-        <br>
-        <img src="graphics/font-awesome/cookie-bite-solid.svg"
-          height="16" width="16" style="float:left; margin-left: 6px;">
         <div class="servings">
-          {{servings}}
+          <img src="graphics/font-awesome/cookie-bite-solid.svg"
+            height="16" width="16" style="filter: opacity(0.7); margin-right: 16px;">
+          <div>
+            {{servings}}
+          </div>
         </div>
         {{/if}}
 
         {{#if times}}
-        <br>
-        <img src="graphics/font-awesome/hourglass-solid.svg"
-          height="16" width="16" style="float:left; margin-left: 6px;">
         <div class="recipe-times">
-            {{#each times}}
-            <div class="recipe-time">{{name}}: {{time}}</div>
-            {{/each}}
+          <img src="graphics/font-awesome/hourglass-solid.svg"
+            height="16" width="16" style="filter: opacity(0.7); margin-right: 16px;">
+          <div>
+              {{#each times}}
+              <div class="recipe-time">{{name}}: {{time}}</div>
+              {{/each}}
+          </div>
         </div>
         {{/if}}
 
         {{#if notes}}
-        <br>
-        <br>
-        <img src="graphics/font-awesome/info-solid.svg"
-          height="16" width="16" style="float:left; margin-left: 6px;">
-        <div class="recipe-notes">{{notes}}</div>
+        <div class="recipe-notes">
+          <img src="graphics/font-awesome/info-circle-solid.svg"
+            height="16" width="16" style="filter: opacity(0.7); margin-right: 16px;">
+          <div>
+            {{notes}}
+          </div>
+        </div>
         {{/if}}
 
         <div class="parts">

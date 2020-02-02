@@ -23,20 +23,34 @@
     text-align: left;
 }
 
+.recipe-tags {
+    margin-left: 10px;
+}
+
 .recipe-notes {
-    margin-left: 36px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .recipe-times {
-  margin-left: 36px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 1.5em;
 }
 
 .recipe-time {
-    margin-bottom: 5px;
+
 }
 
 .servings {
-    margin-left: 36px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .recipe-source {
@@ -57,9 +71,6 @@
     border-radius: 655px 805px 625px 805px/805px 625px 805px 655px;
 }
 
-.recipe-tags {
-    margin-left: 10px;
-}
 
 .recipe-image-box {
     position: relative;
