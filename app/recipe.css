@@ -71,6 +71,10 @@
     height: auto;
 }
 
+.part {
+  margin-top: 60px;
+}
+
 .part-seperator {
   width: 60%;
   border-top-style: solid;
@@ -84,7 +88,6 @@
 .part-name {
   font-size: 24px;
   font-weight: bold;
-  margin-top: 60px;
   margin-bottom: 10px;
 }
 
