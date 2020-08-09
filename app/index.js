@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
   var cookbook = window.cookbook;
-  cookbook.tags = cookbook.recipes.map( recipe => recipe.tags || []).flat();
+  cookbook.tags = new Set(cookbook.recipes.map( recipe => recipe.tags || []).flat());
 
   // render recipe cards
   cookbook.recipes.forEach(function (recipe, index) {
