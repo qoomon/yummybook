@@ -1,2 +1,3 @@
 .DS_Store
-data/
+data/data/.cookbook.js
+.cookbook.js

@@ -1,0 +1,28 @@
+#!/usr/bin/env node
+
+const fs = require('fs')
+const path = require('path')
+
+const data_dir = path.join(__dirname, 'data')
+
+// create cookbook asset
+let cookbook = {
+    recipes: fs.readdirSync(data_dir, { withFileTypes: true })
+        .filter(dir_element => dir_element.isDirectory())
+        .filter(dir_directory => fs.existsSync(path.join(data_dir, dir_directory.name, 'recipe.json')))
+        .map(dir_directory => path.join(data_dir  , dir_directory.name))
+        .map(recipe_dir => {
+          let recipeJson = fs.readFileSync(path.join(recipe_dir, 'recipe.json'))
+          let recipe = JSON.parse(recipeJson)
+          recipe.pictures = fs.readdirSync(recipe_dir, { withFileTypes: true })
+            .filter(dir_element => dir_element.isFile())
+            .filter(dir_file => dir_file.name.startsWith('picture-'))
+            .sort()
+            .map(dir_picture => path.join(path.basename(recipe_dir), dir_picture.name))
+          return recipe
+        })
+}
+fs.writeFileSync(
+   path.join(data_dir, '.cookbook.js'),
+  'window.cookbook = ' + JSON.stringify(cookbook, null, 2)
+)
