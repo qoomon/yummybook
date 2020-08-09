@@ -44,7 +44,7 @@
         {{/if}}
         
         {{#if energy}}
-        <div class="energy">
+        <div class="recipe-energy">
           <img src="graphics/font-awesome/fire-solid.svg"
             height="16" width="16" style="filter: opacity(0.7); margin-right: 14px;">
           <div>
@@ -59,7 +59,7 @@
             height="16" width="16" style="filter: opacity(0.7); margin-right: 14px;">
           <div>
               {{#each times}}
-              <div class="recipe-time">{{name}}: {{time}}</div>
+              <div class="recipe-time">{{@key}}: {{this}}</div>
               {{/each}}
           </div>
         </div>
@@ -87,7 +87,7 @@
                     <h3>Ingredients</h3>
                     {{#each ingredients}}
                     <div class="ingredient">
-                        <div><span class="ingredient-bullet">•</span> {{name}}: {{amount}}</div>
+                        <div><span class="ingredient-bullet">•</span>{{@key}}: {{this}}</div>
                     </div>
                     {{/each}}
                     {{/if}}

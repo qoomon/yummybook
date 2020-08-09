@@ -1,59 +1,58 @@
 {
-    "date": "10.08.2018",
-    "source": "Hello Fresh",
-    "name": "Porree Flammkuchen mit Salat",
-    "tags": [
-        "Quiche & Flammkuchen",
-        "Lunchbox"
-    ],
-    "notes": [
-      "Am besten warm essen."
-    ],
-    "servings": "1",
-    "energy": "939 kcal",
-    "times": [
-        {"name": "Zubereitungszeit", "time": "25 min"}
-    ],
-    "parts": [
-        {
-            "name": "Für den Porree-Flammkuchen",
-            "ingredients": [
-                {"name": "Porree", "amount": "1"},
-                {"name": "Kerbel", "amount": "5 g"},
-                {"name": "Schmand", "amount": "75 g"},
-                {"name": "Flammkuchen Teig", "amount": "1"},
-                {"name": "Mozzarella", "amount": "1"},
-                {"name": "Schnittlauch", "amount": "5 g g"}
+  "date": "10.08.2018",
+  "source": "Hello Fresh",
+  "name": "Porree Flammkuchen mit Salat",
+  "tags": [
+    "Quiche & Flammkuchen",
+    "Lunchbox"
+  ],
+  "notes": [
+    "Am besten warm essen."
+  ],
+  "servings": "1",
+  "energy": "939 kcal",
+  "times": {
+    "Zubereitungszeit": "25 min"
+  },
+  "parts": [{
+      "name": "Für den Porree-Flammkuchen",
+      "ingredients": {
+        "Porree": "1",
+        "Kerbel": "5 g",
+        "Schmand": "75 g",
+        "Flammkuchen Teig": "1",
+        "Mozzarella": "1",
+        "Schnittlauch": "5 g g"
 
-            ],
-            "steps": [
-              "Ofen auf 220°C Ober- / Unterhitze vorheizen",
-              "Porree gründlich waschen und nur den weißen und hellgrünen Teil in feine Ringe schneiden",
-              "Kerbel fein hacken, anschlißend gründlich mit dem Schmand verrühren",
-              "1 Tl Olivenöl udn 1 Tl Butter in einer großen beschichteten Pfanne erwärmen",
-              "Porree zugeben und 5-8 Min. zugedeckt bei schwacher Hitze weich garen",
-              "Flammkuchenteig auf einem mit Backpapier ausgelegtem Backblech ausrollen",
-              "Teig gleichmäßig mit Kerbel-Schmand bestreichen, dabei ca. 1 cm Rand frei lassen",
-              "Mit Salz und Pfeffer würzen und Porree drauf geben und mit Mozzarella bestreuen",
-              "Flammkuchen auf mittlerer Schiene des Ofens nach Packungsanleitung knusprig backen",
-              "Flammkuchen auf Tellern verteilen und mit Schnittlauch garnieren"
-            ]
-        },
-        {
-            "name": "Für den Salat",
-            "ingredients": [
-              {"name": "Salatherzen", "amount": "1"},
-              {"name": "Birne", "amount": "1"},
-              {"name": "Kürbiskerne", "amount": "20 g"}
+      },
+      "steps": [
+        "Ofen auf 220°C Ober- / Unterhitze vorheizen",
+        "Porree gründlich waschen und nur den weißen und hellgrünen Teil in feine Ringe schneiden",
+        "Kerbel fein hacken, anschlißend gründlich mit dem Schmand verrühren",
+        "1 Tl Olivenöl udn 1 Tl Butter in einer großen beschichteten Pfanne erwärmen",
+        "Porree zugeben und 5-8 Min. zugedeckt bei schwacher Hitze weich garen",
+        "Flammkuchenteig auf einem mit Backpapier ausgelegtem Backblech ausrollen",
+        "Teig gleichmäßig mit Kerbel-Schmand bestreichen, dabei ca. 1 cm Rand frei lassen",
+        "Mit Salz und Pfeffer würzen und Porree drauf geben und mit Mozzarella bestreuen",
+        "Flammkuchen auf mittlerer Schiene des Ofens nach Packungsanleitung knusprig backen",
+        "Flammkuchen auf Tellern verteilen und mit Schnittlauch garnieren"
+      ]
+    },
+    {
+      "name": "Für den Salat",
+      "ingredients": {
+        "Salatherzen": "1",
+        "Birne": "1",
+        "Kürbiskerne": "20 g"
 
-            ],
-            "steps": [
-                "Salatblätter vom Kopf lösen, waschen und abtropfen lassen",
-                "Birne waschen, Kerngehäuse entfernen und in feine Scheiben scheniden",
-                "Kürbiskerne in einer kleinen Pfanne ohne Zusatz von Fett rösten, bis sie duften, kurz abkühlen lassen",
-                "Für das Dressing: 2 El Olivenöl, 1 El Essig, 1 Tl Senf und 1/2 Tl Honig mit etwas Salz und Pfeffer in einer kleinen Schüssel verrühren",
-                "Salat, Birne und Kürbiskerne in eine große Schüssel geben und das Dressing vorsichtig unterheben"
-            ]
-        }
-    ]
+      },
+      "steps": [
+        "Salatblätter vom Kopf lösen, waschen und abtropfen lassen",
+        "Birne waschen, Kerngehäuse entfernen und in feine Scheiben scheniden",
+        "Kürbiskerne in einer kleinen Pfanne ohne Zusatz von Fett rösten, bis sie duften, kurz abkühlen lassen",
+        "Für das Dressing: 2 El Olivenöl, 1 El Essig, 1 Tl Senf und 1/2 Tl Honig mit etwas Salz und Pfeffer in einer kleinen Schüssel verrühren",
+        "Salat, Birne und Kürbiskerne in eine große Schüssel geben und das Dressing vorsichtig unterheben"
+      ]
+    }
+  ]
 }
