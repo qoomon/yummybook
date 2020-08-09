@@ -7,8 +7,10 @@
         "Lunchbox"
     ],
     "notes": [
+      "Am besten warm essen."
     ],
-    "servings": "",
+    "servings": "1",
+    "energy": "939 kcal",
     "times": [
         {"name": "Zubereitungszeit", "time": "25 min"}
     ],

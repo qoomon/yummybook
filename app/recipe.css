@@ -53,6 +53,13 @@
     margin-left: 12px;
 }
 
+.energy {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    margin-left: 12px;
+}
+
 .recipe-source {
     font-size: 12px;
 }
