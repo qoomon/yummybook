@@ -12,4 +12,4 @@
   * Replace or remove pictures
     * Picture file names need to start with `picture-`
 * Run [`build_cookbook`](build_cookbook)
-* Open [app/index.html](app/index.html) in your browser
+* Open [index.html](index.html) in your browser
