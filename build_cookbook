@@ -9,6 +9,7 @@ const data_dir = path.join(__dirname, 'data')
 let cookbook = {
     recipes: fs.readdirSync(data_dir, { withFileTypes: true })
         .filter(dir_element => dir_element.isDirectory())
+        .filter(dir_directory => !dir_directory.name.startsWith("_"))
         .filter(dir_directory => fs.existsSync(path.join(data_dir, dir_directory.name, 'recipe.json')))
         .map(dir_directory => path.join(data_dir  , dir_directory.name))
         .map(recipe_dir => {
