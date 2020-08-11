@@ -9,7 +9,7 @@
     width: 800px;
     height: auto;
     min-height: 500px;
-    padding: 35px;
+    padding: 36px;
     margin: 20px
 }
 
@@ -65,7 +65,7 @@
 }
 
 .recipe-name {
-    font-size: 35px;
+    font-size: 36px;
     font-weight: 700;
 }
 
@@ -115,8 +115,9 @@
 }
 
 .step {
+    display: flex;
     margin-left: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 
 .step-index {
@@ -129,14 +130,14 @@
 }
 
 .ingredient {
+    display: flex;
     margin-left: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 .ingredient-bullet {
     font-size: 38px;
-    line-height: 0;
+    line-height: 19px;
     margin-right: 10px;
-    vertical-align: middle;
 }
-
+  

@@ -87,7 +87,8 @@
                     <h3>Ingredients</h3>
                     {{#each ingredients}}
                     <div class="ingredient">
-                        <div><span class="ingredient-bullet">•</span>{{@key}}: {{this}}</div>
+                        <span class="ingredient-bullet">•</span>
+                        <span>{{@key}}: {{this}}</span>
                     </div>
                     {{/each}}
                     {{/if}}
@@ -98,7 +99,7 @@
                     {{#each steps}}
                     <div class="step">
                         <span class="step-index">{{inc @index}}.</span>
-                        <span class="step-description">{{this}}</span>
+                        <span>{{this}}</span>
                     </div>
                     {{/each}}
                     {{/if}}
