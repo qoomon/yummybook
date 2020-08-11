@@ -3,15 +3,15 @@ const fs = require('fs')
 const path = require('path')
 const YAML = require('./app/lib/js-yaml')
 
-const data_dir = path.join(__dirname, 'data')
+const recipes_dir = path.join(__dirname, 'recipes')
 
 // create cookbook asset
 let cookbook = {
-    recipes: fs.readdirSync(data_dir, { withFileTypes: true })
+    recipes: fs.readdirSync(recipes_dir, { withFileTypes: true })
         .filter(dir_element => dir_element.isDirectory())
         .filter(dir_directory => !dir_directory.name.startsWith("_"))
-        .filter(dir_directory => fs.existsSync(path.join(data_dir, dir_directory.name, 'recipe.yaml')))
-        .map(dir_directory => path.join(data_dir, dir_directory.name))
+        .filter(dir_directory => fs.existsSync(path.join(recipes_dir, dir_directory.name, 'recipe.yaml')))
+        .map(dir_directory => path.join(recipes_dir, dir_directory.name))
         .map(recipe_dir => {
           let recipePath = path.join(recipe_dir, 'recipe.yaml')
           let recipeJson = fs.readFileSync(recipePath)
@@ -30,6 +30,6 @@ let cookbook = {
         })
 }
 fs.writeFileSync(
-   path.join(data_dir, '.cookbook.js'),
+   path.join(recipes_dir, '.cookbook.js'),
   'window.cookbook = ' + JSON.stringify(cookbook)
 )

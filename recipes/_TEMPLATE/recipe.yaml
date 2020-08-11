@@ -1,0 +1,30 @@
+name: Super Food
+date: 01.01.2020
+source: Somwhere
+tags:
+  - Magic
+  - Vegan
+notes:
+  - More is better ;-)
+servings: '42'
+times:
+  Preparation Time: 1 min
+parts:
+  - name: Dough
+    ingredients:
+      flour: '1'
+      suggar: 5 g
+      glitter: 75 g
+    steps:
+      - First things first
+      - Second step after
+      - And enventually you are done
+  - name: Frosting
+    ingredients:
+      flour: '1'
+      suggar: 5 g
+      glitter: 75 g
+    steps:
+      - First things first
+      - Second step after
+      - And enventually you are done
